@@ -1,0 +1,42 @@
+{
+  "scout": "cold_to_warm",
+  "run_timestamp": "2026-03-21T19:53:33.870306+00:00",
+  "chains": [
+    {
+      "seed": "When physics gets in the way: entropy-based evaluation (2026) \u2014 lag state",
+      "chain": [
+        {
+          "title": "When physics gets in the way: an entropy-based evaluation of conceptua",
+          "paper_id": "35d163e6b6a1acf6b36e433456a64c85b6d45652",
+          "year": 2026,
+          "citation_count": 2,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "When physics gets in the way: entropy-based evaluation (2026) \u2014 lag state"
+        },
+        {
+          "title": "The Human Terrain System: Operationally Relevant Social Science Resear",
+          "paper_id": "b3759a554f21ea7b5a118bdc11ebf9f6f956e39a",
+          "year": 2015,
+          "citation_count": 7,
+          "depth": 1,
+          "zone": "frontier",
+          "siblings": [
+            "Analysis of Alternative Convoy Route Pat"
+          ]
+        }
+      ],
+      "length": 2,
+      "zones_traversed": [
+        "frontier"
+      ],
+      "reached_warm": true
+    }
+  ],
+  "summary": {
+    "seeds_attempted": 1,
+    "chains_collected": 1,
+    "chains_reaching_warm": 1,
+    "avg_length": 2.0
+  }
+}

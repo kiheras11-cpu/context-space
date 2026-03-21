@@ -1,0 +1,237 @@
+{
+  "scout": "warm_to_cold",
+  "run_timestamp": "2026-03-21T16:50:59.531808+00:00",
+  "chains": [
+    {
+      "seed": "Quantum error correction frontier",
+      "chain": [
+        {
+          "title": "Optimized measurement-free and fault-tolerant quantum error correction",
+          "paper_id": "a3cb2d321ec8e532ecb5f23ff5886b88d597fe0b",
+          "year": 2024,
+          "citation_count": 20,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "Quantum error correction frontier"
+        },
+        {
+          "title": "Demonstration of logical qubits and repeated error correction with bet",
+          "paper_id": "90b87115cffaca7554267db0c0c8bc2424723681",
+          "year": 2024,
+          "citation_count": 209,
+          "depth": 1,
+          "zone": "warm",
+          "siblings": [
+            "A tweezer array with 6,100 highly cohere",
+            "Multi-qubit gates and Schr\u00f6dinger cat st"
+          ]
+        },
+        {
+          "title": "Logical quantum processor based on reconfigurable atom arrays",
+          "paper_id": "9cac672bb24d6216c2b5728f940e69395d188bdd",
+          "year": 2023,
+          "citation_count": 1314,
+          "depth": 2,
+          "zone": "cooling",
+          "siblings": [
+            "Real-time quantum error correction beyon",
+            "Alliance"
+          ]
+        },
+        {
+          "title": "High-threshold and low-overhead fault-tolerant quantum memory",
+          "paper_id": "38340391d1d42dda851db732fafc0232e66a86f4",
+          "year": 2023,
+          "citation_count": 598,
+          "depth": 3,
+          "zone": "warm",
+          "siblings": [
+            "Constant-overhead fault-tolerant quantum",
+            "High-fidelity gates and mid-circuit eras"
+          ]
+        },
+        {
+          "title": "Sparse Blossom: correcting a million errors per core second with minim",
+          "paper_id": "eb57a5cc2ea992a9f1469752d56c61de84798c6f",
+          "year": 2023,
+          "citation_count": 294,
+          "depth": 4,
+          "zone": "warm",
+          "siblings": [
+            "Relaxing Hardware Requirements for Surfa",
+            "Quantum two-block group algebra codes"
+          ]
+        }
+      ],
+      "length": 5,
+      "zones_traversed": [
+        "frontier",
+        "warm",
+        "cooling"
+      ],
+      "reached_cold": false
+    },
+    {
+      "seed": "Quantum entanglement recent",
+      "chain": [
+        {
+          "title": "Experimental verification of quantum battery capacity with an optical ",
+          "paper_id": "6ed3c2ae275c309e3c0926de6ce833d25ad262d8",
+          "year": 2024,
+          "citation_count": 10,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "Quantum entanglement recent"
+        },
+        {
+          "title": "Battery Capacity of Energy-Storing Quantum Systems.",
+          "paper_id": "c84763627689a6e6c5273395d6bd1f73ae6b9dcd",
+          "year": 2023,
+          "citation_count": 63,
+          "depth": 1,
+          "zone": "frontier",
+          "siblings": [
+            "Nonreciprocal Quantum Batteries.",
+            "Remote Charging and Degradation Suppress"
+          ]
+        },
+        {
+          "title": "Micromasers as quantum batteries",
+          "paper_id": "9d184a75825a118b3e40ce3d2614761c98691300",
+          "year": 2022,
+          "citation_count": 70,
+          "depth": 2,
+          "zone": "frontier",
+          "siblings": [
+            "Work Extraction from Unknown Quantum Sou",
+            "Quantum advantage in charging cavity and"
+          ]
+        },
+        {
+          "title": "Quantum Speed-Up in Collisional Battery Charging.",
+          "paper_id": "2191490e39886a0d564835820084375e1ce17228",
+          "year": 2021,
+          "citation_count": 76,
+          "depth": 3,
+          "zone": "frontier",
+          "siblings": [
+            "Work Extraction from Unknown Quantum Sou",
+            "Quantum advantage in charging cavity and"
+          ]
+        },
+        {
+          "title": "Non-Markovian effects on charging and self-discharging process of quan",
+          "paper_id": "6ff9660f1863aaf8ee536c7837b124c847c13af0",
+          "year": 2019,
+          "citation_count": 103,
+          "depth": 4,
+          "zone": "warm",
+          "siblings": [
+            "Precision and Work Fluctuations in Gauss",
+            "Charging and energy fluctuations of a dr"
+          ]
+        }
+      ],
+      "length": 5,
+      "zones_traversed": [
+        "frontier",
+        "warm"
+      ],
+      "reached_cold": false
+    },
+    {
+      "seed": "Decoherence suppression frontier",
+      "chain": [
+        {
+          "title": "Passive and active suppression of transduced noise in silicon spin qub",
+          "paper_id": "657bba2609d3fa75780276bc6e573e23f14ad00a",
+          "year": 2024,
+          "citation_count": 13,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "Decoherence suppression frontier"
+        },
+        {
+          "title": "Shared control of a 16\u2009semiconductor quantum dot crossbar array",
+          "paper_id": "7e49d5e7837f977adaf7ce83afc428bd6af25cbe",
+          "year": 2022,
+          "citation_count": 169,
+          "depth": 1,
+          "zone": "warm",
+          "siblings": [
+            "Noise-correlation spectrum for a pair of",
+            "Reducing charge noise in quantum dots by"
+          ]
+        },
+        {
+          "title": "Universal control of a six-qubit quantum processor in silicon",
+          "paper_id": "ff7a92d1abbe5d355cfd40b7d1e3a8bf25055c26",
+          "year": 2022,
+          "citation_count": 408,
+          "depth": 2,
+          "zone": "warm",
+          "siblings": [
+            "Probing quantum devices with radio-frequ",
+            "A Flexible Design Platform for Si/SiGe E"
+          ]
+        },
+        {
+          "title": "Fault-tolerant control of an error-corrected qubit",
+          "paper_id": "21ca28b1a513422e1d8d377f1a3fc079ac954b8a",
+          "year": 2021,
+          "citation_count": 356,
+          "depth": 3,
+          "zone": "warm",
+          "siblings": [
+            "Two-qubit silicon quantum processor with",
+            "Quantum error correction with silicon sp"
+          ]
+        }
+      ],
+      "length": 4,
+      "zones_traversed": [
+        "frontier",
+        "warm"
+      ],
+      "reached_cold": false
+    },
+    {
+      "seed": "Topological quantum matter frontier",
+      "chain": [
+        {
+          "title": "Sequencing one-dimensional Majorana materials for topological quantum ",
+          "paper_id": "319f880e157bed9086f5073f67dac751a60f4788",
+          "year": 2024,
+          "citation_count": 2,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "Topological quantum matter frontier"
+        },
+        {
+          "title": "The Structure of Scientific Revolutions",
+          "paper_id": "5f1885ae9a528b6449c14a46a19e1b8f81cac7c5",
+          "year": 1964,
+          "citation_count": 7144,
+          "depth": 1,
+          "zone": "cold",
+          "siblings": [
+            "The Argument",
+            "Quantum Computing and Cryptography"
+          ]
+        }
+      ],
+      "length": 2,
+      "zones_traversed": [
+        "frontier",
+        "cold"
+      ],
+      "reached_cold": true
+    }
+  ],
+  "summary": {
+    "seeds_attempted": 5,
+    "chains_collected": 4,
+    "chains_reaching_cold": 1,
+    "avg_length": 4.0
+  }
+}

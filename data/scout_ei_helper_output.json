@@ -1,0 +1,149 @@
+{
+  "scout": "ei_helper",
+  "run_timestamp": "2026-03-21T17:31:27.806485+00:00",
+  "observations": [
+    {
+      "label": "Maxwell \u2014 Equations",
+      "found": true,
+      "paper_id": "0fe939d120ab0b870a40a071cc18b74a465a8e2f",
+      "year": 2023,
+      "total_citations": 3,
+      "total_references": 28,
+      "cold_profile": [
+        {
+          "title": "Electrical conductivity in inhomogeneous media",
+          "year": 2008,
+          "citation_count": 374
+        },
+        {
+          "title": "Dielectric Materials in Magnetic Resonance",
+          "year": 2011,
+          "citation_count": 176
+        },
+        {
+          "title": "Newton's observations of diffracted rays",
+          "year": 1998,
+          "citation_count": 16
+        },
+        {
+          "title": "Experimental study of dielectrophoresis and liquid dielectro",
+          "year": 2011,
+          "citation_count": 13
+        },
+        {
+          "title": "Clausius\u2013Mossotti relation fractal modification",
+          "year": 2018,
+          "citation_count": 9
+        }
+      ],
+      "warm_profile": [
+        {
+          "title": "Maxwell\u2019s Early Unitary View of Electricity and Fluid Mechan",
+          "year": 2023,
+          "citation_count": 2
+        },
+        {
+          "title": "The Reception of Maxwell's Dynamical Theory in Italy Through",
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "Elettromagnetismo",
+          "year": 2024,
+          "citation_count": 0
+        }
+      ],
+      "metrics": {
+        "cold_avg": 74.9,
+        "warm_avg": 0.7,
+        "asymmetry": -74.2,
+        "asymmetry_label": "BALANCED",
+        "year_spread": 26,
+        "cold_count": 8,
+        "warm_count": 3
+      },
+      "flags": [
+        "BALANCED_BRIDGE: similar weight in both directions"
+      ]
+    },
+    {
+      "label": "Boltzmann \u2014 Statistical Mech",
+      "found": false
+    },
+    {
+      "label": "Einstein \u2014 Special Relativity",
+      "found": false
+    },
+    {
+      "label": "Schrodinger \u2014 Wave Mechanics",
+      "found": true,
+      "paper_id": "110a6c8ea53f7a137d403fbaeaacb8c64e8ccf91",
+      "year": null,
+      "total_citations": 2160,
+      "total_references": 18,
+      "cold_profile": [],
+      "warm_profile": [
+        {
+          "title": "Quantum dynamics in real Hilbert space: Algebraic isomorphis",
+          "year": 2026,
+          "citation_count": 0
+        },
+        {
+          "title": "Theory of Spacetime Impedance: A Reactive Framework for the ",
+          "year": 2026,
+          "citation_count": 0
+        },
+        {
+          "title": "Excited Pfaffians: Generalized Neural Wave Functions Across ",
+          "year": 2026,
+          "citation_count": 0
+        },
+        {
+          "title": "On the Limiting Behavior of $L^2$-Critical Pseudo-Relativist",
+          "year": 2026,
+          "citation_count": 0
+        },
+        {
+          "title": "High probability of transitions in the H-I spectrum and 3D-a",
+          "year": 2026,
+          "citation_count": 0
+        }
+      ],
+      "metrics": {
+        "cold_avg": 0,
+        "warm_avg": 0.0,
+        "asymmetry": 0.0,
+        "asymmetry_label": "BALANCED",
+        "year_spread": 0,
+        "cold_count": 0,
+        "warm_count": 8
+      },
+      "flags": [
+        "FLOOR_ANCHOR: cites nothing in our sample"
+      ]
+    },
+    {
+      "label": "Shannon \u2014 Information Theory",
+      "found": false
+    }
+  ],
+  "anomaly_summary": {
+    "found": [
+      "Maxwell \u2014 Equations",
+      "Schrodinger \u2014 Wave Mechanics"
+    ],
+    "not_found": [
+      "Boltzmann \u2014 Statistical Mech",
+      "Einstein \u2014 Special Relativity",
+      "Shannon \u2014 Information Theory"
+    ],
+    "flagged": {
+      "Maxwell \u2014 Equations": [
+        "BALANCED_BRIDGE: similar weight in both directions"
+      ],
+      "Schrodinger \u2014 Wave Mechanics": [
+        "FLOOR_ANCHOR: cites nothing in our sample"
+      ]
+    }
+  }
+}

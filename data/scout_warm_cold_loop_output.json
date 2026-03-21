@@ -1,0 +1,121 @@
+{
+  "scout": "warm_to_cold_loop",
+  "run_timestamp": "2026-03-21T18:06:36.709080+00:00",
+  "chains": [
+    {
+      "seed": "DNP-PhD (Scout 2 frontier output)",
+      "chain": [
+        {
+          "title": "DNP-PhD",
+          "paper_id": "ca6048e64101500ad74de340377e198bd3a0e0a7",
+          "year": 2026,
+          "citation_count": 0,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "DNP-PhD (Scout 2 frontier output)"
+        },
+        {
+          "title": "Leading change",
+          "paper_id": "789ba356e469b65f4a2743925a5e725b27cc61d6",
+          "year": 2018,
+          "citation_count": 4317,
+          "depth": 1,
+          "zone": "cooling",
+          "siblings": [
+            "Advancing Scholarship through Translatio",
+            "PhD\u2010DNP Collaboration: An Integrative Re"
+          ]
+        }
+      ],
+      "length": 2,
+      "zones_traversed": [
+        "frontier",
+        "cooling"
+      ],
+      "reached_cold": false
+    },
+    {
+      "seed": "The Application of Innovative Instructional Methods in Imple",
+      "chain": [
+        {
+          "title": "The Application of Innovative Instructional Methods in Implementing Pu",
+          "paper_id": "790bb210bb92ecd46bd20c039937f1efb5f06c0e",
+          "year": 2019,
+          "citation_count": 0,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "The Application of Innovative Instructional Methods in Imple"
+        }
+      ],
+      "length": 1,
+      "zones_traversed": [
+        "frontier"
+      ],
+      "reached_cold": false
+    },
+    {
+      "seed": "From Symbol to Meaning: Ontological and Philosophical Reflec",
+      "chain": [
+        {
+          "title": "From Symbol to Meaning: Ontological and Philosophical Reflections on L",
+          "paper_id": "334507f56a996333ca14bd92f9ab93730828300c",
+          "year": 2026,
+          "citation_count": 0,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "From Symbol to Meaning: Ontological and Philosophical Reflec"
+        },
+        {
+          "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+          "paper_id": "46f9f7b8f88f72e12cbdb21e3311f995eb6e65c5",
+          "year": 2023,
+          "citation_count": 3027,
+          "depth": 1,
+          "zone": "cooling",
+          "siblings": [
+            "Embedding responsibility in intelligent ",
+            "Connecting ethics and epistemology of AI"
+          ]
+        },
+        {
+          "title": "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+          "paper_id": "1d40f07569482d24e3335ffb31394d4bf1567e6f",
+          "year": 2024,
+          "citation_count": 369,
+          "depth": 2,
+          "zone": "warm",
+          "siblings": [
+            "The Power of Noise: Redefining Retrieval",
+            "RAFT: Adapting Language Model to Domain "
+          ]
+        },
+        {
+          "title": "GPT-4 Technical Report",
+          "paper_id": "163b4d6a79a5b19af88b8585456363340d9efd04",
+          "year": 2023,
+          "citation_count": 22948,
+          "depth": 3,
+          "zone": "cold",
+          "siblings": [
+            "Sparks of Artificial General Intelligenc",
+            "Lost in the Middle: How Language Models "
+          ]
+        }
+      ],
+      "length": 4,
+      "zones_traversed": [
+        "frontier",
+        "cooling",
+        "warm",
+        "cold"
+      ],
+      "reached_cold": true
+    }
+  ],
+  "summary": {
+    "seeds_attempted": 3,
+    "chains_collected": 3,
+    "chains_reaching_cold": 1,
+    "avg_length": 2.33
+  }
+}
