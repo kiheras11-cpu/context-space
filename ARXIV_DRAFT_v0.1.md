@@ -1,6 +1,6 @@
 # Context Space: A Substrate-Native Reading Instrument for Knowledge Topology
 
-*Emmanuel K., Erastus K. — Lucent Research Division*
+*Emmanuel K., Lisa K., Erastus K. — Lucent Research Division*
 *Preprint — March 2026*
 *Status: Draft v0.1 — C2 partial, C3 and C4 pending*
 
