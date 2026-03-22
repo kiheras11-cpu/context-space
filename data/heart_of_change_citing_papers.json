@@ -1,0 +1,57 @@
+{
+  "source": "C2 velocity run on The Heart of Change — 2026-03-22",
+  "paper": {
+    "title": "The Heart of Change: Real-Life Stories of How People Change Their Organizations",
+    "authors": "Kotter, J.P. & Cohen, D.S.",
+    "year": 2002,
+    "paper_id": "93cc7baf663a0569abf5000af10c88615741f237",
+    "citations": 840,
+    "velocity": 35.0,
+    "influence_rate": "8.6%",
+    "functional_mode": "proto-cold / second-order protocol"
+  },
+  "top_citing_papers": [
+    {
+      "rank": 1,
+      "citations": 27,
+      "year": 2023,
+      "title": "Transformational and Transactional Leaders and Their Role in Implementing Change",
+      "domain": "Management / Leadership theory",
+      "signal": "Leadership taxonomy at a change boundary — how different leader types navigate substrate shifts"
+    },
+    {
+      "rank": 2,
+      "citations": 19,
+      "year": 2025,
+      "title": "Family-centered care in neonatal and pediatric critical care units",
+      "domain": "Healthcare / Care model boundary",
+      "signal": "Healthcare substrate shift — care model changing, components adjusting to undefined edge"
+    },
+    {
+      "rank": 3,
+      "citations": 12,
+      "year": 2023,
+      "title": "The Role of Managers in Corporate Change Management: A Bibliometric Analysis",
+      "domain": "Management science / Self-study",
+      "signal": "The field studying its own topology — metacognitive boundary navigation"
+    },
+    {
+      "rank": 4,
+      "citations": 11,
+      "year": 2024,
+      "title": "Exploring the Influence of the Digital Economy on Energy, Economic and Environmental Synergy",
+      "domain": "Economics / Digital substrate shift",
+      "signal": "Physical substrate change (digital economy) affecting energy + environmental systems"
+    },
+    {
+      "rank": 5,
+      "citations": 9,
+      "year": 2023,
+      "title": "Managing changes in the environment of human-robot interaction and collaborative robotics",
+      "domain": "Human-Robot Interaction / New physical substrate",
+      "signal": "Literal new physical substrate (robots in workplace) — humans adjusting to undefined edge"
+    }
+  ],
+  "observation": "All five citing papers involve institutions or fields encountering a substrate that has moved beyond existing procedures. None are pre-implementation planning. All are at or past the defined boundary of their procedural frameworks.",
+  "hypothesis_status": "Structurally confirmed by Scout 3 (independent observation, no framing) and C2 velocity (0.043 ratio — warm zone decelerating relative to node)"
+}

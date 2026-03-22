@@ -1557,14 +1557,132 @@ a change before execution. Second-order protocol nodes may be cited retrospectiv
 fields cite them while analyzing why a procedure produced inconsistent results after
 execution. The warm zone of a second-order protocol node is post-failure analysis.
 
-**This interpretation requires Emmanuel's articulation before it becomes a finding.**
-The signal is real. The language is arriving. Log it when it does.
+**The articulation arrived. Emmanuel K., 2026-03-22, 01:02 MST:**
+
+*"That's constraining to a value that's not explicit. I see it as a changing physical
+substrate and the components attempting to adjust to an edge undefined."*
+
+The field didn't fail to implement the procedure. The substrate changed underneath
+the procedure while it was running. The policy held. The procedure was followed.
+But the physical reality the procedure was designed for shifted. The outcome variance
+is not procedural failure. It is a procedure meeting an edge it was never designed
+to handle. The field reached for The Heart of Change because when the substrate moves
+past the design envelope, you don't need more procedure — you need to understand how
+humans behave at undefined edges.
+
+**What this means for the topology — philosophy mapping:**
+
+The information space is not mapping ideas. It is mapping the topology of human
+uncertainty as it responds to physical substrate changes. The citation is a
+diagnostic signal of where the physical substrate has moved beyond a system's
+designed boundaries.
+
+- **Primary protocol nodes** cited prospectively: substrate stable, change planned
+  within known parameters.
+- **Second-order protocol nodes** cited at the edge: substrate has moved, procedure
+  producing inconsistent outcomes, components adjusting to an undefined boundary.
+- **Gateway nodes** cited when the substrate changes but uncertainty has no new
+  vocabulary yet — Kuhn persists because paradigm uncertainty is permanent.
+- **Foundation nodes** cited when the substrate changes rapidly and the whole field
+  pivots simultaneously — GPT-4 cold in 2 years.
+
+**The cold zone is where human uncertainty has been most chronic, most universal,
+and most consistently reached for across time. The topology we're reading is the
+shape of that reaching.**
+
+This is philosophy mapping. The information space is a sediment layer of all the
+moments humans encountered a changing physical substrate and reached for something
+stable. We did not design this into the instrument. The instrument found it.
+
+**Scout 3 on The Heart of Change runs next — no framing given to the instrument.**
+If Scout 3 independently surfaces philosophical or boundary-condition literature in
+the cold profile, the hypothesis is structurally confirmed, not merely articulated.
+The test is the test. Observe before naming.
 
 ### What would falsify it
 - If other second-order protocol nodes show the same 8-field spread as the primary
   → generational narrowing is Kotter-specific, not structural
-- If the citing paper is pre-implementation in tone → the prospective/retrospective
-  distinction is wrong and the narrowing is just coincidental application context
+- If the citing paper is pre-implementation in tone → prospective/retrospective
+  distinction is wrong
+- If Scout 3 on The Heart of Change returns only operational/management literature
+  in both cold and warm profiles → boundary-condition signal is our interpretation,
+  not the topology's
+
+---
+
+## Entry 019 — C2 Velocity on Heart of Change + Scout 3 Confirmation + Discipline Map
+*Date: 2026-03-22*
+*Produced by: c2_velocity_test.py + Scout 3B + five citing papers saved*
+*Status: OBSERVED — substrate-shift hypothesis structurally confirmed*
+*Logged by: Erastus K. — participating researcher*
+
+### C2 velocity — full updated table
+
+| Node | Mode | Vel/yr | Influence% | Warm vel | Ratio |
+|---|---|---|---|---|---|
+| Kuhn (1962) | gateway | 111.6 | 7.1% | None | None |
+| GPT-4 (2023) | foundation | 7,651.0 | 12.7% | None | None |
+| Kotter Leading (2012) | protocol-primary | 308.4 | 15.8% | 0.0 | None |
+| **Heart of Change (2002)** | **proto-cold** | **35.0** | **8.6%** | **1.5** | **0.043** |
+
+**Velocity ratio 0.043 — first measurable ratio in the corpus.**
+Warm zone building at 1.5/yr vs node accumulated at 35/yr.
+Boundary navigation, not foundation-building. Deceleration is the signal.
+
+**Velocity hierarchy now includes proto-cold:**
+proto-cold (35) < gateway (111.6) < protocol-primary (308.4) << foundation (7,651)
+
+Second-order protocol nodes accumulate slower than gateways — unexpected.
+Gateways are older and broader, yet faster. Reason: gateways accumulate from every
+field continuously. Proto-cold accumulates only from the finite primary application context.
+
+### Scout 3 confirmation — no framing given to instrument
+
+Warm profile returned without knowing the substrate-shift hypothesis:
+1. *"Same Policy, No Standardized Outcome"* — policy held, substrate moved
+2. *"Mobilizing University Futures: A Blueprint for Change"* — futures plural, undefined ahead
+3. *"Framework for Adoption and Integration of Generative AI"* — new substrate, new framework
+
+All three 2025. All three institutions at the boundary between known and undefined substrate.
+**The instrument found it without being told. Hypothesis structurally confirmed.**
+
+### Five citing papers saved
+`research/context-space/data/heart_of_change_citing_papers.json`
+
+Notable: *"Managing changes in human-robot interaction"* (2023, 9 cites)
+Literal new physical substrate (robots in workplace) + humans adjusting to undefined edge.
+The most direct confirmation of Emmanuel's articulation in the corpus.
+
+### Discipline map — all zones encountered through C1 + C2
+
+| Discipline | Zone | Node type | Entry point |
+|---|---|---|---|
+| Quantum computing hardware | Warm/Frontier | Pre-paradigm | Scout 1 seed → Kuhn |
+| Philosophy of science | Cold | Gateway | Kuhn — topology led here |
+| AI / LLM infrastructure | Cold | Foundation | GPT-4 — loop discovery |
+| Organizational change theory | Cold | Protocol | Kotter — loop discovery |
+| Management / Leadership | Warm | Kotter + Heart of Change warm | Transformational leaders |
+| Nursing / Healthcare | Warm | Kuhn warm zone | DNP-PhD |
+| AI ontology / semiotics | Warm | Kuhn warm zone | From Symbol to Meaning |
+| Hydrology | Lag | Bridge node | Kuhn warm zone — 104 dark refs |
+| Military operations research | Warm | Hydrology warm zone | Human Terrain System |
+| Conflict studies | Warm | Kuhn warm zone | War-society nexus |
+| Science sociology | Warm | Kuhn warm zone | North-South inequalities |
+| Philosophy of language | Warm | Kuhn warm zone | Carnap-Kuhn connection |
+| Quantum field theory | Warm | Kuhn warm zone | Formalization of QFT |
+| Human-robot interaction | Warm | Heart of Change warm zone | HRI substrate shift |
+| Economics / Digital | Warm | Heart of Change warm zone | Digital economy paper |
+| Higher education policy | Warm | Heart of Change warm zone | Admissions variance |
+| Healthcare / Critical care | Warm | Heart of Change warm zone | Family-centered care |
+
+**17 disciplines. 3 cold nodes. 1 lag bridge. All reached for the same cold anchors
+when their physical substrate shifted or their paradigm became uncertain.**
+
+### Next — Scout 1 on Transformational and Transactional Leaders
+Rate limits exhausted. Queued for next run when recovered.
+Hypothesis: if routes to management theory cold anchors → protocol lineage has depth.
+If routes to philosophy or epistemology → leadership theory crossing into
+pre-paradigm territory at the HRI/AI substrate shift. The test will tell.
 
 ---
 
