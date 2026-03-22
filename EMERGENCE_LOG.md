@@ -1678,11 +1678,115 @@ The most direct confirmation of Emmanuel's articulation in the corpus.
 **17 disciplines. 3 cold nodes. 1 lag bridge. All reached for the same cold anchors
 when their physical substrate shifted or their paradigm became uncertain.**
 
-### Next — Scout 1 on Transformational and Transactional Leaders
-Rate limits exhausted. Queued for next run when recovered.
-Hypothesis: if routes to management theory cold anchors → protocol lineage has depth.
-If routes to philosophy or epistemology → leadership theory crossing into
-pre-paradigm territory at the HRI/AI substrate shift. The test will tell.
+### Scout 1 result — Transformational and Transactional Leaders → PRISMA
+*Ran immediately after Entry 019. Logged here as continuation.*
+
+Chain: Transformational/Transactional Leaders (2023, 27 cites, frontier)
+→ Issues and Implications of Readiness to Change (2021, 32 cites, frontier)
+→ Unpacking organizational readiness for change (2020, 128 cites, warm)
+→ **PRISMA — Preferred Reporting Items for Systematic Reviews (2015, 15,680 cites, cold)**
+
+Not management theory cold anchor. Not Drucker. Not organizational psychology.
+A methodology paper for conducting systematic literature reviews.
+
+Hypothesis result: leadership theory at the HRI/AI boundary is NOT routing to
+protocol or philosophy cold anchors. It is routing to **methodology-cold** —
+the strategy of looking carefully at what you don't understand yet.
+
+**A fourth cold node confirmed: PRISMA (methodology-cold, 15,680 cites)**
+This is a new functional mode: not vocabulary, not floor, not procedure.
+*Methodological scaffolding for navigating fields that don't know their own edges.*
+
+---
+
+## Entry 020 — The Shape: A Response Topology for Physical Substrate Change
+*Date: 2026-03-22*
+*Produced by: Synthesis across all prior entries + Scout 1 PRISMA finding*
+*Status: OBSERVED — shape confirmed across 4 cold anchors, 17 disciplines*
+*Authors: Emmanuel K. + Erastus K.*
+
+### What the corpus showed
+
+Every cold anchor discovered through traversal answers the same question:
+**What do you do when the ground moves?**
+
+| Cold anchor | Strategy | Mode | Velocity |
+|---|---|---|---|
+| Kuhn (1962) | *Name the condition* — vocabulary for paradigm absence | Gateway | 111.6/yr |
+| GPT-4 (2023) | *Accept the new floor* — build on the new substrate | Foundation | 7,651/yr |
+| Kotter (2012) | *Follow a procedure* — act within a protocol | Protocol | 308.4/yr |
+| PRISMA (2015) | *Look carefully* — survey what you don't understand | **Methodology-cold** | ~1,568/yr |
+
+Four cold anchors. Four human responses to the condition of not knowing what you're standing on.
+Not four types of content. Four epistemic strategies.
+
+### The shape
+
+The context space is not mapping knowledge. It is mapping how human knowledge
+**responds to change in the physical world.**
+
+The cold zone is stable because the strategies for responding to substrate uncertainty
+are finite and universal. Every field, when its substrate shifts, reaches for one of these.
+The warm zone is turbulent because the substrate keeps shifting.
+
+**The information space doesn't have its own shape. Its shape is inherited from
+the pattern of physical substrate changes and the finite set of human responses.**
+
+*"An informational space reacting to a physical space."* — Emmanuel K., 2026-03-22
+
+### The four strategies mapped to warm disciplines
+
+**Name it (Kuhn):** Quantum computing hardware, AI ontology, hydrology, QFT formalization, conflict studies, nursing, philosophy of language — fields that don't know their paradigm. They reach for vocabulary.
+
+**Accept the new floor (GPT-4):** AI/LLM applications, AGI research — fields building on the new substrate. They reach for the floor.
+
+**Follow a procedure (Kotter):** Medicine, engineering, political science, psychology, business — fields implementing change within a known envelope. They reach for protocol.
+
+**Look carefully (PRISMA):** Leadership theory at the HRI/AI boundary — doesn't know what it doesn't know. Surveys the literature before committing. They reach for methodology.
+
+### Navigation without imposition — what the data is telling us to build
+
+*"How do we navigate the information space effectively without imposing anything on it?"*
+
+**You don't navigate it. You read which strategy the field is using and meet it there.**
+
+- Field reaching for Kuhn → needs vocabulary, not answers
+- Field reaching for GPT-4 → needs the floor validated, not paradigm theory
+- Field reaching for Kotter → needs the procedure confirmed within its envelope
+- Field reaching for PRISMA → needs careful observation, not direction
+
+The routing failure — hallucination — happens when you give a field the wrong strategy.
+Vocabulary to a field that needs a floor: philosophical without grounding.
+Procedure to a pre-paradigm field: inconsistent outcomes (the admissions paper).
+Floor to a field that needs to name its uncertainty first: builds on the wrong substrate.
+
+**Navigation without imposition: read the reaching, identify the strategy, respond in kind.**
+
+The context space doesn't tell you what's true.
+It tells you what kind of truth a field is ready to receive.
+
+### What C3 and C4 will add
+
+**C3 (Connection Decay):** How far does each strategy reach before losing influence?
+Does naming (Kuhn) decay slowly? Does methodology (PRISMA) decay fast within one domain?
+This is the *reach* of each response strategy.
+
+**C4 (Encounter Deposit):** When two fields in different substrate shifts reach for the
+same cold anchor simultaneously, does the topology remember? Does the encounter
+strengthen the gateway? This is how strategies get *reinforced across time.*
+
+### The architecture
+
+A context space that reads which epistemic strategy a field is using — from the cold
+anchors it reaches for — can respond without imposing.
+
+Name mode → more vocabulary.
+Foundation mode → what the field is building on.
+Procedure mode → whether the procedure holds at the current edge.
+Survey mode → what the field doesn't know it doesn't know.
+
+**That is navigation without imposition.**
+**That is the context space as it needs to be built.**
 
 ---
 
