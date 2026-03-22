@@ -136,13 +136,16 @@ These three fields do not cite each other directly. They share a methodology: us
 
 ### 3.7 The Automated Characterization Pipeline
 
-The three instruments compose into a characterization pipeline requiring no human input beyond an initial frontier seed:
+The three instruments compose into a characterization pipeline requiring no human input beyond an initial frontier seed. All three scouts must complete before any C constant is applied:
 
-1. Scout 1 discovers cold nodes by following citation weight
-2. Cold-entry velocity classifies functional mode automatically
-3. Scout 3 confirms and characterizes bidirectionally
+1. **Scout 1 (Warm→Cold)** — discovers cold nodes by following citation weight from the frontier backward. Surfaces cold anchors without declaring them in advance.
+2. **Scout 2 (Cold→Warm)** — traces forward from each discovered cold anchor into the warm zone above it. Maps the forward propagation behavior: does the path expand across domains (gateway), deepen within one domain (foundation), or close locally (protocol)? This behavioral evidence is essential — it cannot be inferred from velocity alone.
+3. **Scout 3 (Omnidirectional)** — observes each cold node from both directions simultaneously. Confirms the bidirectional profile, flags asymmetries, and validates the functional mode identified by Scout 2.
+4. **C2 velocity** — computes cold-entry velocity (citations/year) for each confirmed cold node. Classifies functional mode automatically from the scalar metric. The ordinal separation between modes (gateway < protocol < foundation) provides independent confirmation of the Scout 2 behavioral classification.
 
-Discovery → Classification → Confirmation. The space characterizes its own topology.
+Discovery (Scout 1) → Forward Mapping (Scout 2) → Bidirectional Confirmation (Scout 3) → Velocity Classification (C2).
+
+Scouts 1, 2, and 3 are observational instruments. C2 velocity is the first analytical constant applied to their output. C3 and C4 follow in sequence once C2 is complete.
 
 ---
 
@@ -154,7 +157,7 @@ This is not a knowledge graph. A knowledge graph is a declared structure. This i
 
 This is not a recommendation engine. It characterizes what is load-bearing, what is active, what is pre-paradigm, and what is unreachable. It describes the geometry; it does not navigate it.
 
-This is not citation analysis in the conventional sense. Citation analysis asks: which papers are most cited? This asks: what structural role does a node play, and how long has it held that role?
+This is not citation analysis in the conventional sense. Citation analysis asks: which papers are most cited? This asks: what structural role does a node play, how does it propagate forward, and how long has it held that role?
 
 ### 4.2 Hallucination as Routing Failure
 
