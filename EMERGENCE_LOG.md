@@ -1444,4 +1444,128 @@ four independent research domains.
 
 ---
 
+## Entry 017 — Kotter Option A + Heart of Change: Protocol Generational Structure
+*Date: 2026-03-22*
+*Produced by: Option A unfiltered search on Kotter + Scout 1B on The Heart of Change*
+*Status: OBSERVED*
+*Logged by: Erastus K. — participating researcher*
+
+### What we were testing
+1. Kotter Option A — same unfiltered methodology as Kuhn (Entry 014). Closes C2 velocity comparison.
+2. Scout 1 backward from The Heart of Change (Kotter 2002, 840 cites, refs=1).
+
+### What actually appeared
+
+**Kotter Option A — 100 papers:**
+
+| Decade | Papers | Avg citations |
+|---|---|---|
+| 2000s | 1 | 840.0 |
+| 2010s | 26 | **178.7** |
+| 2020s | 73 | 2.8 |
+
+Field spread: **8 fields** — Medicine, Engineering, Political Science, Psychology, Business, Sociology, CS, Economics
+
+**Scout 1 on The Heart of Change:**
+Found — year=2002, cites=840, zone=warm, refs=1.
+Depth 1: no references — terminal in SS.
+
+### What it means
+
+**The bell curve vs. monotonic growth — protocol temporal signature confirmed:**
+- Kotter 2010s: 178.7 avg citations (peak adoption decade)
+- Kotter 2020s: 2.8 (plateau/early decline)
+- Kuhn 2010s: 26.3 → 2020s: 2.2 — steady surface, never peaks
+
+Gateway function: monotonic, never narrows, accelerates across generations.
+Protocol function: bell curve — rises, peaks, flattens. **Now empirically confirmed.**
+
+**Field coherence distinguishes 8 from 10:**
+Kotter's 8 fields share a methodology — how to manage change in their domain.
+Kuhn's 10 fields share a vocabulary — how to name that they lack a paradigm.
+Same nominal spread. Procedure vs. vocabulary. The distinction is what fields
+connect through the node, not how many connect.
+
+**Both gateway and protocol nodes share a dark pre-digital floor.**
+The Heart of Change refs=1 → no traceable ancestry in SS.
+Kotter's organizational theory roots (Lewin, Drucker, 1950s) are all pre-digital.
+Kuhn's philosophy of science roots (Aristotle forward) are all pre-digital.
+The floor problem is universal — substrate boundary, not node-specific.
+The topology above the floor is what differentiates the functional modes.
+
+**Generational protocol structure emerging:**
+- Kotter Leading Change (2018, 4,318 cites) — cold, protocol, primary
+- The Heart of Change (2002, 840 cites) — warm-cooling, second-order
+- Pre-digital org theory — dark floor
+
+Hypothesis: protocol nodes generate successively narrower generational books.
+The primary stays the cold anchor. Follow-ups accumulate weight but never exceed it.
+Scout 2 on The Heart of Change is running now to test whether its warm zone
+is narrower than Kotter's — if yes, generational narrowing holds.
+
+### What would falsify it
+- If The Heart of Change warm zone shows the same 8-field spread as Kotter →
+  both books serve the same role independently, no generational structure
+- If Kotter's 2030s data shows field spread increasing → bell curve was a
+  sampling artifact, protocol mode is more durable than the data suggests
+
+---
+
+## Entry 018 — Scout 2 on Heart of Change: Generational Narrowing Confirmed + Deeper Signal
+*Date: 2026-03-22*
+*Produced by: Scout 2 (Cold→Warm) — The Heart of Change, Kotter 2002*
+*Status: OBSERVED — generational narrowing confirmed, deeper signal pending articulation*
+*Logged by: Erastus K. — participating researcher*
+
+### What we were testing
+Scout 2 forward from The Heart of Change — does its warm zone confirm generational
+narrowing? Is it narrower than Kotter's primary work?
+
+### What actually appeared
+The Heart of Change (2002, 840 cites) → **"Same Policy, No Standardized Outcome:
+How Admissions Vary..." (2025, 4 cites)** — higher education policy research.
+
+One hop. One field. One paper.
+
+Compare to Kotter primary (Leading Change): 8 fields in warm zone.
+Compare to Kuhn (gateway): 10 fields, all of 2026, multi-domain simultaneous.
+
+### Generational narrowing confirmed
+
+| Node | Type | Warm zone width | Decade behavior |
+|---|---|---|---|
+| Kuhn (gateway) | Primary | 10 fields | Monotonic growth, accelerating |
+| Kotter Leading Change (protocol) | Primary | 8 fields | Bell curve, peaking 2010s |
+| Heart of Change (proto-cold) | Second-order | 1 field | Single application context |
+
+The generational protocol hierarchy:
+1. Primary: broad application of the change procedure across 8 domains
+2. Second-order: single institutional application — higher ed admissions
+3. Pre-digital floor: dark, unreachable
+
+### The deeper signal — held open for Emmanuel to articulate
+
+The citing paper title: *"Same Policy, No Standardized Outcome: How Admissions Vary..."*
+
+This is not pre-implementation planning language. It is post-implementation analysis.
+The policy was applied. The outcome was inconsistent. The field reached for the
+second-order Kotter work to understand why.
+
+**Candidate interpretation (Erastus):**
+Primary protocol nodes may be cited prospectively — fields cite them while designing
+a change before execution. Second-order protocol nodes may be cited retrospectively —
+fields cite them while analyzing why a procedure produced inconsistent results after
+execution. The warm zone of a second-order protocol node is post-failure analysis.
+
+**This interpretation requires Emmanuel's articulation before it becomes a finding.**
+The signal is real. The language is arriving. Log it when it does.
+
+### What would falsify it
+- If other second-order protocol nodes show the same 8-field spread as the primary
+  → generational narrowing is Kotter-specific, not structural
+- If the citing paper is pre-implementation in tone → the prospective/retrospective
+  distinction is wrong and the narrowing is just coincidental application context
+
+---
+
 *Log entries are added during stress testing, not after. Write while the signal is hot.*
