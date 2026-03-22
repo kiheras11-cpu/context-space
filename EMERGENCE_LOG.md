@@ -1023,12 +1023,13 @@ But the pattern is clean enough to state: velocity encodes type.
 ### What this means for the architecture
 
 **The three scouts are now a characterization pipeline:**
-1. **Scout 1** — discover cold nodes by following topology
-2. **C2 velocity** — classify functional mode from cold entry speed
-3. **Scout 3** — confirm and characterize with bidirectional profile
+1. **Scout 1 (Warm→Cold)** — discover cold nodes by following topology
+2. **Scout 2 (Cold→Warm)** — trace forward from discovered cold anchors, map the warm zone above them, observe forward propagation behavior (behavioral classification: Gateway / Foundation / Protocol)
+3. **Scout 3 (Omnidirectional)** — confirm and characterize with bidirectional profile
+4. **C2 velocity** — classify functional mode from cold entry speed (independent confirmation of Scout 2's behavioral finding)
 
-The context space can classify a node's functional mode automatically.
-Traversal discovers. Velocity classifies. Scout 3 confirms.
+All three scouts must complete before C2 is applied.
+Scout 2 is not optional — it provides the behavioral evidence that velocity alone cannot.
 This is the beginning of an automated node characterization system.
 
 ### What would falsify it
@@ -1373,12 +1374,15 @@ No traversal required for classification. Velocity alone encodes the type.
 Time-invariant. Kuhn ages into more surface area, not irrelevance.
 
 #### The Automated Characterization Pipeline
+*(All three scouts must run before any C constant is applied)*
 
-1. **Scout 1** — discover cold nodes by topology
-2. **C2 velocity** — classify functional mode
-3. **Scout 3** — confirm bidirectionally
+1. **Scout 1 (Warm→Cold)** — discover cold nodes by following topology
+2. **Scout 2 (Cold→Warm)** — trace forward from cold anchors, map the warm zone, observe forward propagation behavior (behavioral evidence for Gateway / Foundation / Protocol)
+3. **Scout 3 (Omnidirectional)** — confirm and characterize with bidirectional profile
+4. **C2 velocity** — classify functional mode from cold-entry speed (independent confirmation of Scout 2's behavioral finding)
 
-Discovery → Classification → Confirmation. No human declaration required.
+Discovery → Forward Mapping → Confirmation → Classification. No human declaration required.
+Scout 2 is not optional. Velocity alone cannot replace behavioral observation.
 
 ---
 
