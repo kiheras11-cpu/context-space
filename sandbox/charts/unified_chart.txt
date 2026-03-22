@@ -1,0 +1,72 @@
+==============================================================================
+           C1 + C2 ANALYSIS — UNIFIED CORPUS (ALL RESEARCH TRACKS)            
+Context Space + QOS + Bioelectric | 46 papers | 31 research areas | Run: 2026-03-22
+==============================================================================
+
+── C2 VELOCITY MAP (citations/year) ──
+   ◆ FOUNDATION >1000/yr   ● PROTOCOL 200-1000/yr   ○ GATEWAY <200/yr
+   [C]=COLD  [A]=ACTIVE-UNANCHORED  [S]=STRUCT-REAL-FRONTIER-INVISIBLE  [F]=FLOOR
+
+  ┌─ COLD ZONE (14) ─────────────────────────────────────────────────────┐
+  │ [C] ◆ Nielsen_Chuang         2000 │██████░░░░░░░░░░░░░░░░░░░░░░░░│  1603.1/yr  src=2
+  │ [C] ● Peskin_Schroeder       1995 │██░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   705.1/yr  src=2
+  │ [C] ● Penrose_1989           1989 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   483.9/yr  src=3
+  │ [C] ● Shadlen_Newsome        2001 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   309.5/yr  src=2
+  │ [C] ● Ratcliff               1978 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   290.5/yr  src=3
+  │ [C] ● Dalibard_Castin_Molmer 1992 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   277.8/yr  src=2
+  │ [C] ○ Landauer               1961 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   168.7/yr  src=3
+  │ [C] ○ Hameroff_Penrose_1996  1996 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   139.1/yr  src=2
+  │ [C] ○ Aharonov_et_al         1988 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   136.1/yr  src=2
+  │ [C] ○ Kuhn                   1962 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   111.3/yr  src=7
+  │ [C] ○ Feynman_1948           1948 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   108.7/yr  src=2
+  │ [C] ○ Bennett_1982           1982 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│    92.8/yr  src=2
+  │ [C] ○ Kotter_Cohen           2002 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│    34.7/yr  src=2
+  │ [C] ○ Szilard                1929 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│    28.8/yr  src=2
+  └────────────────────────────────────────────────────────────────────────┘
+
+  ┌─ ACTIVE-UNANCHORED (8) ─────────────────────────────────────────────────────┐
+  │ [A] ◆ OpenAI_GPT4            2023 │██████████████████████████████│  7651.0/yr  src=4
+  │ [A] ◆ Moher_PRISMA           2015 │██████░░░░░░░░░░░░░░░░░░░░░░░░│  1568.0/yr  src=3
+  │ [A] ● Mi_et_al_Google        2021 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   450.0/yr  src=2
+  │ [A] ● Preskill               2018 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   310.0/yr  src=2
+  │ [A] ● Kotter_2012            2012 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   308.4/yr  src=5
+  │ [A] ● Krantz_et_al           2019 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   301.0/yr  src=2
+  │ [A] ○ Levin_2019             2019 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│    47.0/yr  src=2
+  │ [A] ○ Entropy_Hydrology      2026 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│     1.0/yr  src=2
+  └────────────────────────────────────────────────────────────────────────┘
+
+── C1 CROSS-SOURCE WEIGHT MAP (how many research tracks cite this node) ──
+
+  [C] ○ Kuhn                     1962  [█████████████████████████] 7 src  111.3/yr  epistemology
+  [A] ● Kotter_2012              2012  [█████████████████░░░░░░░░] 5 src  308.4/yr  org_change
+  [A] ◆ OpenAI_GPT4              2023  [██████████████░░░░░░░░░░░] 4 src  7651.0/yr  ai_llm
+  [A] ◆ Moher_PRISMA             2015  [██████████░░░░░░░░░░░░░░░] 3 src  1568.0/yr  methodology
+  [C] ● Penrose_1989             1989  [██████████░░░░░░░░░░░░░░░] 3 src  483.9/yr  consciousness
+  [C] ● Ratcliff                 1978  [██████████░░░░░░░░░░░░░░░] 3 src  290.5/yr  neuroscience
+  [C] ○ Landauer                 1961  [██████████░░░░░░░░░░░░░░░] 3 src  168.7/yr  thermodynamics_info
+  [C] ◆ Nielsen_Chuang           2000  [███████░░░░░░░░░░░░░░░░░░] 2 src  1603.1/yr  quantum_foundations
+  [C] ● Peskin_Schroeder         1995  [███████░░░░░░░░░░░░░░░░░░] 2 src  705.1/yr  quantum_field_theory
+  [A] ● Mi_et_al_Google          2021  [███████░░░░░░░░░░░░░░░░░░] 2 src  450.0/yr  quantum_hardware
+  [A] ● Preskill                 2018  [███████░░░░░░░░░░░░░░░░░░] 2 src  310.0/yr  quantum_hardware
+  [C] ● Shadlen_Newsome          2001  [███████░░░░░░░░░░░░░░░░░░] 2 src  309.5/yr  neuroscience
+  [A] ● Krantz_et_al             2019  [███████░░░░░░░░░░░░░░░░░░] 2 src  301.0/yr  quantum_hardware
+  [C] ● Dalibard_Castin_Molmer   1992  [███████░░░░░░░░░░░░░░░░░░] 2 src  277.8/yr  quantum_physics
+  [C] ○ Hameroff_Penrose_1996    1996  [███████░░░░░░░░░░░░░░░░░░] 2 src  139.1/yr  consciousness
+  [C] ○ Aharonov_et_al           1988  [███████░░░░░░░░░░░░░░░░░░] 2 src  136.1/yr  quantum_physics
+  [C] ○ Feynman_1948             1948  [███████░░░░░░░░░░░░░░░░░░] 2 src  108.7/yr  quantum_physics
+  [C] ○ Bennett_1982             1982  [███████░░░░░░░░░░░░░░░░░░] 2 src  92.8/yr  thermodynamics_info
+  [A] ○ Levin_2019               2019  [███████░░░░░░░░░░░░░░░░░░] 2 src  47.0/yr  bioelectric
+  [C] ○ Kotter_Cohen             2002  [███████░░░░░░░░░░░░░░░░░░] 2 src  34.7/yr  org_change
+  [C] ○ Szilard                  1929  [███████░░░░░░░░░░░░░░░░░░] 2 src  28.8/yr  thermodynamics_info
+  [A] ○ Entropy_Hydrology        2026  [███████░░░░░░░░░░░░░░░░░░] 2 src  1.0/yr  hydrology_physics
+
+── LEGEND ──
+  ◆ FOUNDATION (>1000/yr)   ● PROTOCOL (200-1000/yr)   ○ GATEWAY (<200/yr)
+  [C] COLD — old + multi-source (confirmed foundational)
+  [A] ACTIVE-UNANCHORED — recent + multi-source (moving fast, not yet cold)
+  [S] STRUCT-REAL-FRONTIER-INVISIBLE — old + single source (undervalued seam)
+  [F] FLOOR — recent + single source (instrumental)
+
+  src = number of distinct research tracks that reference this node
+  vel = citations per year since publication (C2 velocity)
+==============================================================================

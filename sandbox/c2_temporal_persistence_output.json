@@ -1,0 +1,150 @@
+{
+  "constant": "C2_temporal_persistence",
+  "run_timestamp": "2026-03-21T20:12:02.540627+00:00",
+  "nodes": [
+    {
+      "label": "Kuhn \u2014 Structure of Scientific Revolutions (1962)",
+      "paper_id": "5f1885ae9a528b6449c14a46a19e1b8f81cac7c5",
+      "pub_year": 1962,
+      "functional_mode": "gateway",
+      "total_sampled": 200,
+      "decade_profiles": {
+        "2020s": {
+          "count": 200,
+          "field_spread": 6,
+          "fields": [
+            "Biology",
+            "Computer Science",
+            "Economics",
+            "Mathematics",
+            "Medicine",
+            "Physics"
+          ],
+          "avg_citations": 0.4,
+          "max_citations": 9,
+          "top_papers": [
+            {
+              "title": "Towards a renewed conceptualization of the war\u2013society nexus",
+              "year": 2026,
+              "citations": 9
+            },
+            {
+              "title": "25 years of qualitative research in sport and exercise Psych",
+              "year": 2025,
+              "citations": 6
+            },
+            {
+              "title": "A Pragmatic View of AI Personhood",
+              "year": 2025,
+              "citations": 5
+            },
+            {
+              "title": "Transformative learning in open distance and e-learning: the",
+              "year": 2025,
+              "citations": 5
+            }
+          ]
+        }
+      },
+      "persistence_sig": {
+        "interpretation": "insufficient_data",
+        "note": "only one decade in sample \u2014 SS returning most-recent citations only"
+      }
+    },
+    {
+      "label": "GPT-4 Technical Report (2023)",
+      "paper_id": "163b4d6a79a5b19af88b8585456363340d9efd04",
+      "pub_year": 2023,
+      "functional_mode": "foundation",
+      "total_sampled": 200,
+      "decade_profiles": {
+        "2020s": {
+          "count": 200,
+          "field_spread": 7,
+          "fields": [
+            "Biology",
+            "Computer Science",
+            "Economics",
+            "Engineering",
+            "Mathematics",
+            "Medicine",
+            "Physics"
+          ],
+          "avg_citations": 0.1,
+          "max_citations": 3,
+          "top_papers": [
+            {
+              "title": "Navigating Embodied Intelligence: Enabling Technologies, Sec",
+              "year": 2026,
+              "citations": 3
+            },
+            {
+              "title": "When word order matters: human brains represent sentence mea",
+              "year": 2026,
+              "citations": 2
+            },
+            {
+              "title": "OGScene3D: Incremental Open-Vocabulary 3D Gaussian Scene Gra",
+              "year": 2026,
+              "citations": 1
+            },
+            {
+              "title": "Evaluating the Effectiveness of Deep Learning Models for Fou",
+              "year": 2026,
+              "citations": 1
+            }
+          ]
+        }
+      },
+      "persistence_sig": {
+        "interpretation": "insufficient_data",
+        "note": "only one decade in sample \u2014 SS returning most-recent citations only"
+      }
+    },
+    {
+      "label": "Kotter \u2014 Leading Change (2012/2018)",
+      "paper_id": "789ba356e469b65f4a2743925a5e725b27cc61d6",
+      "pub_year": 2012,
+      "functional_mode": "protocol",
+      "total_sampled": 200,
+      "decade_profiles": {
+        "2020s": {
+          "count": 200,
+          "field_spread": 2,
+          "fields": [
+            "Computer Science",
+            "Medicine"
+          ],
+          "avg_citations": 0.3,
+          "max_citations": 6,
+          "top_papers": [
+            {
+              "title": "Fifty\u2009Years of the Teaching-Family Model at Boys Town: Keys ",
+              "year": 2025,
+              "citations": 6
+            },
+            {
+              "title": "Exploring the Impact of ISO/IEC 42001:2023 AI Management Sta",
+              "year": 2025,
+              "citations": 6
+            },
+            {
+              "title": "Strategic organisational responses to generative AI-driven d",
+              "year": 2025,
+              "citations": 5
+            },
+            {
+              "title": "Connecting academia and industry: Change management in curri",
+              "year": 2025,
+              "citations": 4
+            }
+          ]
+        }
+      },
+      "persistence_sig": {
+        "interpretation": "insufficient_data",
+        "note": "only one decade in sample \u2014 SS returning most-recent citations only"
+      }
+    }
+  ]
+}

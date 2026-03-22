@@ -1,0 +1,70 @@
+{
+  "scout": "ei_helper_from_id",
+  "run_timestamp": "2026-03-22T08:04:56.748468+00:00",
+  "observations": [
+    {
+      "label": "The Heart of Change \u2014 Kotter (2002, 840 cites)",
+      "found": true,
+      "paper_id": "93cc7baf663a0569abf5000af10c88615741f237",
+      "year": 2002,
+      "total_citations": 840,
+      "total_references": 1,
+      "cold_profile": [],
+      "warm_profile": [
+        {
+          "title": "Same Policy, No Standardized Outcome: How Admissions Values and I",
+          "year": 2025,
+          "citation_count": 4
+        },
+        {
+          "title": "Mobilizing university futures: A blueprint for change",
+          "year": 2025,
+          "citation_count": 3
+        },
+        {
+          "title": "A Framework for the Adoption and Integration of Generative AI in ",
+          "year": 2025,
+          "citation_count": 2
+        },
+        {
+          "title": "Peran Kepemimpinan Transformasional dalam Pengembangan Organisasi",
+          "year": 2025,
+          "citation_count": 1
+        },
+        {
+          "title": "Social Marketing & Behavioral Science: An Unnecessary Divide",
+          "year": 2025,
+          "citation_count": 1
+        },
+        {
+          "title": "The Moderating Role of Leader Narcissism in Examining When and Ho",
+          "year": 2026,
+          "citation_count": 0
+        }
+      ],
+      "metrics": {
+        "cold_avg": 0,
+        "warm_avg": 1.1,
+        "asymmetry": 1.1,
+        "asymmetry_label": "BALANCED",
+        "year_spread": 1,
+        "cold_count": 0,
+        "warm_count": 10
+      },
+      "flags": [
+        "LAG_OR_FLOOR: no references indexed \u2014 lag state or terminal floor"
+      ]
+    }
+  ],
+  "anomaly_summary": {
+    "found": [
+      "The Heart of Change \u2014 Kotter (2002, 840 cites)"
+    ],
+    "not_found": [],
+    "flagged": {
+      "The Heart of Change \u2014 Kotter (2002, 840 cites)": [
+        "LAG_OR_FLOOR: no references indexed \u2014 lag state or terminal floor"
+      ]
+    }
+  }
+}

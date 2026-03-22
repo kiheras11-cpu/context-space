@@ -1,0 +1,31 @@
+{
+  "scout": "warm_to_cold_loop",
+  "run_timestamp": "2026-03-22T07:43:51.112670+00:00",
+  "chains": [
+    {
+      "seed": "The Heart of Change \u2014 Kotter (2002, 840 cites, refs=1)",
+      "chain": [
+        {
+          "title": "The Heart of Change: Real-Life Stories of How People Change Their Orga",
+          "paper_id": "93cc7baf663a0569abf5000af10c88615741f237",
+          "year": 2002,
+          "citation_count": 840,
+          "depth": 0,
+          "zone": "warm",
+          "seed_label": "The Heart of Change \u2014 Kotter (2002, 840 cites, refs=1)"
+        }
+      ],
+      "length": 1,
+      "zones_traversed": [
+        "warm"
+      ],
+      "reached_cold": false
+    }
+  ],
+  "summary": {
+    "seeds_attempted": 1,
+    "chains_collected": 1,
+    "chains_reaching_cold": 0,
+    "avg_length": 1.0
+  }
+}

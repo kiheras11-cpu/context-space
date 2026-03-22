@@ -1,0 +1,43 @@
+{
+  "scout": "cold_to_warm",
+  "run_timestamp": "2026-03-22T08:50:34.957752+00:00",
+  "chains": [
+    {
+      "seed": "Transformational and Transactional Leaders \u2014 Role in Implementing Change (2023, 27 cites)",
+      "chain": [
+        {
+          "title": "Transformational and Transactional Leaders and Their Role in Implement",
+          "paper_id": "71e45ca36bbcc935d04b532cca00aed8bb4e6c66",
+          "year": 2023,
+          "citation_count": 27,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "Transformational and Transactional Leaders \u2014 Role in Implementing Change (2023, 27 cites)"
+        },
+        {
+          "title": "Green Transformational Leadership and Value\u2013Action Barrier on Employee",
+          "paper_id": "620fee1ae8e5720b2876c9f350cddeefbaf9fa3c",
+          "year": 2026,
+          "citation_count": 1,
+          "depth": 1,
+          "zone": "frontier",
+          "siblings": [
+            "Developing A Teaching Factory Management",
+            "Gendered leadership in the Gulf: cultura"
+          ]
+        }
+      ],
+      "length": 2,
+      "zones_traversed": [
+        "frontier"
+      ],
+      "reached_warm": true
+    }
+  ],
+  "summary": {
+    "seeds_attempted": 1,
+    "chains_collected": 1,
+    "chains_reaching_warm": 1,
+    "avg_length": 2.0
+  }
+}

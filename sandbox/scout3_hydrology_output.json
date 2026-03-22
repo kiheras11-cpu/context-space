@@ -1,0 +1,50 @@
+{
+  "scout": "ei_helper_from_id",
+  "run_timestamp": "2026-03-21T19:58:22.230572+00:00",
+  "observations": [
+    {
+      "label": "When physics gets in the way: entropy-based evaluation (2026)",
+      "found": true,
+      "paper_id": "35d163e6b6a1acf6b36e433456a64c85b6d45652",
+      "year": 2026,
+      "total_citations": 2,
+      "total_references": 104,
+      "cold_profile": [],
+      "warm_profile": [
+        {
+          "title": "The Human Terrain System: Operationally Relevant Social Science R",
+          "year": 2015,
+          "citation_count": 7
+        },
+        {
+          "title": "Analysis of Alternative Convoy Route Patrol Procedures for Counte",
+          "year": 2016,
+          "citation_count": 0
+        }
+      ],
+      "metrics": {
+        "cold_avg": 0,
+        "warm_avg": 3.5,
+        "asymmetry": 3.5,
+        "asymmetry_label": "BALANCED",
+        "year_spread": 1,
+        "cold_count": 0,
+        "warm_count": 2
+      },
+      "flags": [
+        "LAG_OR_FLOOR: no references indexed \u2014 lag state or terminal floor"
+      ]
+    }
+  ],
+  "anomaly_summary": {
+    "found": [
+      "When physics gets in the way: entropy-based evaluation (2026)"
+    ],
+    "not_found": [],
+    "flagged": {
+      "When physics gets in the way: entropy-based evaluation (2026)": [
+        "LAG_OR_FLOOR: no references indexed \u2014 lag state or terminal floor"
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+RUNNING ALL THREE SCOUTS
+Independent runs. No synthesis until all three complete.
+Pausing between scouts to respect rate limits.
+
+
+============================================================
+SCOUT 1 — WARM TO COLD
+Frontier → Foundation
+============================================================
+
+[W→C] Seeding: Quantum error correction frontier
+  [rate limited — waiting 5s]
+  [rate limited — waiting 10s]
+  [rate limited — waiting 20s]
+  [rate limited — waiting 40s]
+  Found: Optimized measurement-free and fault-tolerant quantum e | year=2024 | cites=20 | zone=frontier
+  depth 1: [warm] Demonstration of logical qubits and repeated error corr (2024) cites=209
+  depth 2: [cooling] Logical quantum processor based on reconfigurable atom  (2023) cites=1314
+  depth 3: [warm] High-threshold and low-overhead fault-tolerant quantum  (2023) cites=598
+  [rate limited — waiting 5s]
+  [rate limited — waiting 10s]
+  [rate limited — waiting 20s]
+  depth 4: [warm] Sparse Blossom: correcting a million errors per core se (2023) cites=294
+
+[W→C] Seeding: Quantum entanglement recent
+  [rate limited — waiting 5s]
+  [rate limited — waiting 10s]
+  [rate limited — waiting 20s]
+  [rate limited — waiting 40s]
+  Found: Experimental verification of quantum battery capacity w | year=2024 | cites=10 | zone=frontier
+  [rate limited — waiting 5s]
+  [rate limited — waiting 10s]
+  [rate limited — waiting 20s]
+  depth 1: [frontier] Battery Capacity of Energy-Storing Quantum Systems. (2023) cites=63
+  [rate limited — waiting 5s]
+  depth 2: [frontier] Micromasers as quantum batteries (2022) cites=70
+  depth 3: [frontier] Quantum Speed-Up in Collisional Battery Charging. (2021) cites=76
+  [rate limited — waiting 5s]
+  depth 4: [warm] Non-Markovian effects on charging and self-discharging  (2019) cites=103
+
+[W→C] Seeding: Decoherence suppression frontier
+  [rate limited — waiting 5s]
+  Found: Passive and active suppression of transduced noise in s | year=2024 | cites=13 | zone=frontier
+  depth 1: [warm] Shared control of a 16 semiconductor quantum dot crossb (2022) cites=169
+  depth 2: [warm] Universal control of a six-qubit quantum processor in s (2022) cites=408
+  depth 3: [warm] Fault-tolerant control of an error-corrected qubit (2021) cites=356
+  [rate limited — waiting 5s]
+  depth 4: no references — stopping
+
+[W→C] Seeding: Quantum computing algorithms recent
+  Found: Numerical solution of nonlinear Schrödinger equation by | year=2024 | cites=7 | zone=frontier
+  [rate limited — waiting 5s]
+  [rate limited — waiting 10s]
+  depth 1: [frontier] Quantum computing for nonlinear differential equations  (2024) cites=44
+  depth 2: [frontier] Large-scale quantum reservoir learning with an analog q (2024) cites=69
+  depth 3: [warm] Barren plateaus in variational quantum computing (2024) cites=400
+  depth 4: [frontier] Classically estimating observables of noiseless quantum (2024) cites=82
+
+[W→C] Seeding: Topological quantum matter frontier
+  [rate limited — waiting 5s]
+  [rate limited — waiting 10s]
+  [rate limited — waiting 20s]
+  Found: Sequencing one-dimensional Majorana materials for topol | year=2024 | cites=2 | zone=frontier
+  depth 1: [cold] The Structure of Scientific Revolutions (1964) cites=7144
+  reached cold zone — stopping
+
+[W→C] Done. {'seeds_attempted': 5, 'chains_collected': 5, 'chains_reaching_cold': 1, 'avg_length': 4.2}
+
+[pause 20.0s before next scout]
+
+============================================================
+SCOUT 2 — COLD TO WARM
+Foundation → Frontier
+============================================================
+
+[C→W] Seeding: Newton — Principia (1687)
+Traceback (most recent call last):
+  File "/Users/eras/.openclaw/workspace/research/context-space/sandbox/run_scouts.py", line 336, in <module>
+    c2w = run_cold_to_warm()
+  File "/Users/eras/.openclaw/workspace/research/context-space/sandbox/run_scouts.py", line 127, in run_cold_to_warm
+    paper = search_paper(seed_info["query"])
+                         ~~~~~~~~~^^^^^^^^^
+KeyError: 'query'

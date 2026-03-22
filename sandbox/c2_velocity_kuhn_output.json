@@ -1,0 +1,72 @@
+{
+  "constant": "C2_velocity_approximation",
+  "test": "gateway_node_kuhn",
+  "run_timestamp": "2026-03-21T19:30:39.911726+00:00",
+  "cold_node": {
+    "paper_id": "5f1885ae9a528b6449c14a46a19e1b8f81cac7c5",
+    "title": "The Structure of Scientific Revolutions",
+    "pub_year": 1962,
+    "ss_year": 1964,
+    "citation_count": 7145,
+    "influential_citations": 510,
+    "cold_entry_velocity": 111.6,
+    "functional_mode": "gateway"
+  },
+  "warm_zone": {
+    "sample_size": 50,
+    "year_range": [
+      2026,
+      2026
+    ],
+    "recency_fraction": 1.0,
+    "pre_2000_fraction": 0.0,
+    "avg_citations": 0.2,
+    "max_citations": 9,
+    "median_citations": 0,
+    "avg_velocity": null,
+    "top_citing_papers": [
+      {
+        "title": "Towards a renewed conceptualization of the war\u2013society nexus: Fro",
+        "year": 2026,
+        "citations": 9
+      },
+      {
+        "title": "When physics gets in the way: an entropy-based evaluation of conc",
+        "year": 2026,
+        "citations": 2
+      },
+      {
+        "title": "Global North-South science inequalities due to language and fundi",
+        "year": 2026,
+        "citations": 1
+      },
+      {
+        "title": "DNP-PhD",
+        "year": 2026,
+        "citations": 0
+      },
+      {
+        "title": "Teaching public health humanities: innovations from the field",
+        "year": 2026,
+        "citations": 0
+      },
+      {
+        "title": "From Symbol to Meaning: Ontological and Philosophical Reflections",
+        "year": 2026,
+        "citations": 0
+      },
+      {
+        "title": "Linguistic Frameworks, Paradigms, and the Carnap-Kuhn Connection",
+        "year": 2026,
+        "citations": 0
+      },
+      {
+        "title": "Formalization of QFT",
+        "year": 2026,
+        "citations": 0
+      }
+    ]
+  },
+  "velocity_ratio": null,
+  "observations": []
+}

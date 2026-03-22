@@ -1,0 +1,232 @@
+{
+  "constant": "C2_velocity_all_nodes",
+  "run_timestamp": "2026-03-21T20:03:30.234464+00:00",
+  "nodes": [
+    {
+      "label": "Kuhn \u2014 Structure of Scientific Revolutions (1962)",
+      "paper_id": "5f1885ae9a528b6449c14a46a19e1b8f81cac7c5",
+      "functional_mode": "gateway",
+      "pub_year": 1962,
+      "citation_count": 7145,
+      "influential_citations": 510,
+      "influence_rate": 0.071,
+      "cold_entry_velocity": 111.6,
+      "warm_zone": {
+        "sample_size": 50,
+        "year_range": [
+          2026,
+          2026
+        ],
+        "recency_fraction": 1.0,
+        "avg_citations": 0.2,
+        "max_citations": 9,
+        "avg_velocity": null,
+        "top_citing_papers": [
+          {
+            "title": "Towards a renewed conceptualization of the war\u2013society nexus: Fro",
+            "year": 2026,
+            "citations": 9
+          },
+          {
+            "title": "When physics gets in the way: an entropy-based evaluation of conc",
+            "year": 2026,
+            "citations": 2
+          },
+          {
+            "title": "Global North-South science inequalities due to language and fundi",
+            "year": 2026,
+            "citations": 1
+          },
+          {
+            "title": "DNP-PhD",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Teaching public health humanities: innovations from the field",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "From Symbol to Meaning: Ontological and Philosophical Reflections",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Linguistic Frameworks, Paradigms, and the Carnap-Kuhn Connection",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Formalization of QFT",
+            "year": 2026,
+            "citations": 0
+          }
+        ]
+      },
+      "velocity_ratio": null
+    },
+    {
+      "label": "GPT-4 Technical Report (2023)",
+      "paper_id": "163b4d6a79a5b19af88b8585456363340d9efd04",
+      "functional_mode": "foundation",
+      "pub_year": 2023,
+      "citation_count": 22953,
+      "influential_citations": 2919,
+      "influence_rate": 0.127,
+      "cold_entry_velocity": 7651.0,
+      "warm_zone": {
+        "sample_size": 50,
+        "year_range": [
+          2026,
+          2026
+        ],
+        "recency_fraction": 1.0,
+        "avg_citations": 0.1,
+        "max_citations": 2,
+        "avg_velocity": null,
+        "top_citing_papers": [
+          {
+            "title": "When word order matters: human brains represent sentence meaning ",
+            "year": 2026,
+            "citations": 2
+          },
+          {
+            "title": "OGScene3D: Incremental Open-Vocabulary 3D Gaussian Scene Graph Ma",
+            "year": 2026,
+            "citations": 1
+          },
+          {
+            "title": "Large language model assisted human-AI collaborative development ",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Dynamic Shifts: Understanding the network position as social capi",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Fed-Grow: Federating to Grow Transformers for Resource-Constraine",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Bailicai: A Domain-Optimized Retrieval-Augmented Generation Frame",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Sculpting Resource Efficiency: Diffusion Model-Aided Dynamic Mult",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "LLM-Driven Adversarial Example Synthesis for Emerging Topic Rumor",
+            "year": 2026,
+            "citations": 0
+          }
+        ]
+      },
+      "velocity_ratio": null
+    },
+    {
+      "label": "Kotter \u2014 Leading Change (2012/2018)",
+      "paper_id": "789ba356e469b65f4a2743925a5e725b27cc61d6",
+      "functional_mode": "protocol",
+      "pub_year": 2012,
+      "citation_count": 4318,
+      "influential_citations": 684,
+      "influence_rate": 0.158,
+      "cold_entry_velocity": 308.4,
+      "warm_zone": {
+        "sample_size": 50,
+        "year_range": [
+          2025,
+          2026
+        ],
+        "recency_fraction": 1.0,
+        "avg_citations": 0.0,
+        "max_citations": 1,
+        "avg_velocity": 0.0,
+        "top_citing_papers": [
+          {
+            "title": "Empowering teachers for teaching innovation: roles of change lead",
+            "year": 2026,
+            "citations": 1
+          },
+          {
+            "title": "DNP-PhD",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Unlocking the Digital Transformation in Education: The Interplay ",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Using Kotter\u2019s Eight-Stage Model to Understand Departmental Effor",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Transforma\u00e7\u00e3o da gest\u00e3o universit\u00e1ria por meio da IA e EAD",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "The Digitalization Paradox: Assessing Policy Implementation, Orga",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "Teaching Evaluation Readiness Assessment (TERA): Development of a",
+            "year": 2026,
+            "citations": 0
+          },
+          {
+            "title": "ANALYSIS OF ACCOUNTING INFORMATION SYSTEMS AND CHANGE MANAGEMENT ",
+            "year": 2026,
+            "citations": 0
+          }
+        ]
+      },
+      "velocity_ratio": null
+    },
+    {
+      "label": "Entropy/Hydrology \u2014 When physics gets in the way (2026)",
+      "paper_id": "35d163e6b6a1acf6b36e433456a64c85b6d45652",
+      "functional_mode": "lag_state_baseline",
+      "pub_year": 2026,
+      "citation_count": 2,
+      "influential_citations": 0,
+      "influence_rate": 0.0,
+      "cold_entry_velocity": null,
+      "warm_zone": {
+        "sample_size": 2,
+        "year_range": [
+          2015,
+          2016
+        ],
+        "recency_fraction": 0.0,
+        "avg_citations": 3.5,
+        "max_citations": 7,
+        "avg_velocity": 0.3,
+        "top_citing_papers": [
+          {
+            "title": "The Human Terrain System: Operationally Relevant Social Science R",
+            "year": 2015,
+            "citations": 7
+          },
+          {
+            "title": "Analysis of Alternative Convoy Route Patrol Procedures for Counte",
+            "year": 2016,
+            "citations": 0
+          }
+        ]
+      },
+      "velocity_ratio": null
+    }
+  ]
+}

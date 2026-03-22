@@ -1,0 +1,31 @@
+{
+  "scout": "warm_to_cold_loop",
+  "run_timestamp": "2026-03-21T20:51:30.696501+00:00",
+  "chains": [
+    {
+      "seed": "The Essential Tension \u2014 Kuhn (1977, 960 cites)",
+      "chain": [
+        {
+          "title": "The Essential Tension",
+          "paper_id": "2762d99f964d83dd70f9c577c51920d3d83f90f6",
+          "year": 1977,
+          "citation_count": 960,
+          "depth": 0,
+          "zone": "warm",
+          "seed_label": "The Essential Tension \u2014 Kuhn (1977, 960 cites)"
+        }
+      ],
+      "length": 1,
+      "zones_traversed": [
+        "warm"
+      ],
+      "reached_cold": false
+    }
+  ],
+  "summary": {
+    "seeds_attempted": 1,
+    "chains_collected": 1,
+    "chains_reaching_cold": 0,
+    "avg_length": 1.0
+  }
+}

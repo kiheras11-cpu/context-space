@@ -1,0 +1,31 @@
+{
+  "scout": "warm_to_cold_loop",
+  "run_timestamp": "2026-03-21T19:38:08.660548+00:00",
+  "chains": [
+    {
+      "seed": "When physics gets in the way: entropy-based evaluation (2026)",
+      "chain": [
+        {
+          "title": "When physics gets in the way: an entropy-based evaluation of conceptua",
+          "paper_id": "35d163e6b6a1acf6b36e433456a64c85b6d45652",
+          "year": 2026,
+          "citation_count": 2,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "When physics gets in the way: entropy-based evaluation (2026)"
+        }
+      ],
+      "length": 1,
+      "zones_traversed": [
+        "frontier"
+      ],
+      "reached_cold": false
+    }
+  ],
+  "summary": {
+    "seeds_attempted": 1,
+    "chains_collected": 1,
+    "chains_reaching_cold": 0,
+    "avg_length": 1.0
+  }
+}

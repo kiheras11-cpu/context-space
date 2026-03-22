@@ -1,0 +1,209 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{parskip}
+\usepackage{footnote}
+\usepackage{microtype}
+\usepackage{amsmath}
+
+\title{\textbf{Context Space: A Substrate-Native Reading Instrument for Knowledge Topology}}
+\author{Emmanuel K., Lisa K., Erastus K.\\Lucent Research Division}
+\date{March 2026 --- Preprint v0.1\\C1 complete, C2 partial. C3 and C4 pending.}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present an empirical methodology for characterizing the structural topology of human knowledge through citation graph traversal, without domain assumptions, pre-declared anchors, or imposed classification schemes. Using three independent traversal instruments applied to live citation data, we discover five structural node states, three functional modes of foundational nodes classifiable by a single metric (cold-entry velocity in citations per year), three empty-path states mapping the substrate's own boundaries, and two hard boundary conditions defining the indexable region of the knowledge space (approximately 1990--2025). A secondary finding: pre-paradigm states in active research fields are detectable in citation topology---fields in paradigmatic uncertainty independently reach for the same epistemological anchor across unrelated domains simultaneously. All findings are emergent. No structure was declared in advance. The methodology is a single operating principle: \textit{assume nothing, enforce nothing, trust the substrate.}
+\end{abstract}
+
+\section{Introduction}
+
+The problem of hallucination in large language models is commonly framed as a data volume problem: the model has not seen enough. We propose a different framing. Hallucination is a routing problem. A language model that has read everything but cannot navigate the topology of what it has read will still route queries to incorrect regions of its knowledge space. The question is not how much the space contains but whether the space has been read in a way that preserves its natural geometry.
+
+This paper reports the initial results of an attempt to build a reading instrument that reads the geometry rather than imposing one. We call the resulting structure a \textit{context space}: a substrate-native representation of the topology of a knowledge domain, constructed by following citation weight rather than semantic label.
+
+The core hypothesis, which this paper tests empirically: a knowledge space has natural cold zones (load-bearing, high-convergence nodes), warm zones (active construction), and frontier zones (too new to have accumulated weight), and these zones can be characterized without declaring them in advance. The topology can describe itself.
+
+\section{Methodology}
+
+\subsection{The Three Scouts}
+
+We constructed three independent traversal instruments operating on the Semantic Scholar citation graph:
+
+\textbf{Scout 1 (Warm$\to$Cold):} Begin at the frontier (recent, high-activity papers). Follow the highest-citation reference at each step. Continue until reaching a node with no further references or a node classified as cold ($>$5,000 citations). Record the full traversal chain.
+
+\textbf{Scout 2 (Cold$\to$Warm):} Begin at a discovered cold anchor. Follow the highest-citation citing paper at each step. Continue until reaching a node classified as frontier. Record the full traversal chain.
+
+\textbf{Scout 3 (Omnidirectional Observer):} For a target node, pull both its reference set (cold direction) and its citation set (warm direction) simultaneously. Compute bidirectional profile metrics. Flag asymmetries. Do not interpret---record.
+
+No paper IDs, domain labels, or expected cold anchors were provided as inputs. Seeds were recent papers from arXiv query results (Scout 1) or nodes discovered by prior traversals (Scouts 2 and 3 in loop mode).
+
+\subsection{The Protocol}
+
+\textit{Observe before naming. Name before building. Never reverse the order.}
+
+During data collection, no interpretation was permitted. Findings were recorded in an emergence log at the moment of observation. The log is included in full as supplementary material and at the project repository.\footnote{\url{https://github.com/kiheras11-cpu/context-space}}
+
+\subsection{Cold-Entry Velocity: Definition and Limitations}
+
+For each cold node discovered through traversal, we computed cold-entry velocity: total citations divided by years since publication.
+
+$$v = \frac{\text{total citations}}{\text{current year} - \text{publication year}}$$
+
+\textbf{This is a mean rate across lifespan, not a current rate.}\footnote{\label{fn:mean}The formula computes the average annual citation rate across a node's entire lifespan. For nodes with stable accumulation curves (e.g.\ Kuhn, 64 years of consistent cross-domain citation), the mean is a good proxy for the current rate. For nodes with accelerating accumulation curves (foundation nodes, recently published), the mean systematically understates the current rate. The reported velocities should be interpreted accordingly: Kuhn's 111.6/yr approximates the current rate; GPT-4's 7,651/yr is a lower bound.}
+
+This distinction matters differently for each functional mode:
+
+\begin{itemize}
+\item For \textbf{gateway nodes} (e.g.\ Kuhn, 64 years old): the mean closely approximates the current rate. The accumulation curve is approximately flat over decades. Mean $\approx$ current.
+
+\item For \textbf{foundation nodes} (e.g.\ GPT-4, 3 years old): the mean almost certainly \textit{understates} the current rate. Citation accumulation for a rapidly-adopted foundation node is a compounding curve. The reported velocity of 7,651/yr should be read as ``at least 7,651/yr and likely significantly higher.''\footnote{\label{fn:gpt4}GPT-4 was published March 2023. Early citations are exploratory; later citations are structural (building on, comparing against, extending). The mean across three years blends the early exploratory phase with the current high-intensity structural phase. The current annual rate is almost certainly substantially higher than 7,651. A full time-series C2 measurement (see Section~5) will replace this scalar.}
+
+\item For \textbf{protocol nodes} (e.g.\ Kotter, 14 years old): the curve may be non-monotonic---a rise during adoption, a plateau, and gradual decline as the protocol is superseded or internalized.\footnote{\label{fn:kotter}The mean rate for Kotter (308.4/yr over 14 years) cannot distinguish between a stable rate and a peaked adoption lifecycle curve. This is a target for C2 full temporal persistence measurement.}
+\end{itemize}
+
+The functional mode classification holds despite this imprecision. The ordinal separation spans two orders of magnitude---robust to the approximation. The specific numbers are lower bounds for foundation nodes and reasonable approximations for gateway and protocol nodes.
+
+\section{Results}
+
+\subsection{Five Node States}
+
+Running Scout 1 from frontier seeds in quantum computing and running the Independence Convergence constant (C1) bidirectionally on a 25-node synthetic physics graph, we identified five structural states:
+
+\begin{center}
+\begin{tabular}{llp{7cm}}
+\toprule
+\textbf{State} & \textbf{Scores} & \textbf{Description} \\
+\midrule
+Confirmed & High warm + High cold & Two independent methods agree. Maximum structural confidence. \\
+Active-unanchored & High warm + Zero cold & Frontier treats as bridge; foundation sees no seam. \\
+Structurally real, frontier-invisible & Zero warm + High cold & Load-bearing seam the active community has not recognized. \\
+Floor / non-bridge & Zero + Zero & Substrate anchor or genuine non-bridge. \\
+\textbf{Pre-paradigm} & High warm + Non-technical cold & Field is active but reaches for epistemological vocabulary, not technical foundation. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The fifth state was not hypothesized. Scout 1 traversal from a 2024 topological qubit paper reached \textit{The Structure of Scientific Revolutions} (Kuhn, 1962) in a single hop---not a physics paper, not a technical result, but a book about what happens when a field does not yet have a paradigm. The field's citation topology made an implicit structural confession.
+
+\subsection{Three Functional Modes of Cold Nodes}
+
+Through loop testing---feeding Scout 2 forward outputs back into Scout 1 as seeds---we discovered that cold nodes differ not only in domain but in forward propagation behavior:
+
+\textbf{Gateway nodes} (exemplar: Kuhn, \textit{Structure of Scientific Revolutions}, 1962): forward path branches across multiple unrelated domains simultaneously. The node holds vocabulary for uncertainty. Fields reach for it when they need language for what they do not know yet. Temporal character: ancient foundation, perpetually fresh surface. The gateway function is time-invariant---consistent across six decades of citation data spanning ten independent fields.\footnote{\label{fn:cold-age}Age is not what makes a node cold. Weight is. Cold = weight, not age. This means a 2-year-old paper can be cold (GPT-4) and a 60-year-old paper can be warm (The Essential Tension, Kuhn, 1977, 960 citations $\to$ warm zone). The zone classification uses citation count as the primary signal. The threshold used here (cold $>$ 5,000 citations) was calibrated on academic papers via Semantic Scholar and should be treated as corpus-specific.}
+
+\textbf{Foundation nodes} (exemplar: GPT-4 Technical Report, 2023): forward path deepens within a single domain. The node is load-bearing for an entire field's current development trajectory. Cold-entry was rapid---22,953 citations in approximately three years.
+
+\textbf{Protocol nodes} (exemplar: Kotter, \textit{Leading Change}, 2012): forward path closes locally in one to two hops. The node is operational---it tells a field how to act when it does not have a paradigm yet. The circuit closes and the forward momentum stops.
+
+\subsection{Cold-Entry Velocity as Type Classifier}
+
+\begin{center}
+\begin{tabular}{llrp{4.5cm}}
+\toprule
+\textbf{Node} & \textbf{Mode} & \textbf{Velocity (cites/yr)} & \textbf{Note} \\
+\midrule
+Kuhn (1962) & Gateway & 111.6 & Mean $\approx$ current rate$^{\ref{fn:mean}}$ \\
+Kotter (2012) & Protocol & 308.4 & May mask bell curve$^{\ref{fn:kotter}}$ \\
+GPT-4 (2023) & Foundation & 7,651.0 & Lower bound on current rate$^{\ref{fn:gpt4}}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The ordering is clean across two orders of magnitude. \textbf{This metric requires no traversal to compute.} Given only the citation count and publication year of a cold node, its functional mode is predictable. Velocity encodes type.\footnote{\label{fn:corpus}The velocity thresholds reported here (111/308/7,651 cites/yr) are empirical observations from one corpus---academic papers via Semantic Scholar, seeded from physics and philosophy of science. They are not universal constants. The hypothesis is that the \textit{ordinal relationship} (gateway $<$ protocol $<$ foundation) holds universally. Researchers applying this methodology to other corpora should run the scouts without pre-set thresholds, compute velocity for the cold nodes discovered, and read the separation. The thresholds will emerge from the substrate.}
+
+\subsection{Three Empty-Path States}
+
+A node that returns no results from traversal is not uniformly uninformative. We identified three distinct states:
+
+\textbf{Pre-formation:} The node does not yet exist. A structural gap where the topology expects something not yet created. The space is showing where knowledge is about to be built.
+
+\textbf{Lag:} The node exists and is being cited (incoming citations visible) but its own references have not been indexed. The paper is too recently published for the reference graph to be complete. Detectable: citations present, references absent, publication within six months. Observed: a 2026 hydrology paper with 104 real references, all dark, and two incoming citations from military operations research.
+
+\textbf{Terminal / Pre-digital:} The node exists and is heavily cited but has no indexed references. Either a genuine foundational floor or a pre-digital publication whose reference graph predates systematic digital indexing. The pre-digital boundary is approximately 1990.\footnote{\label{fn:predigital}The boundary is a gradient, not a hard line. Papers after 1995 tend to have complete reference graphs in Semantic Scholar. Papers from 1985--1995 have partial coverage. Papers before 1985 are largely dark. The stated boundary of $\sim$1990 is a practical approximation. Every pre-digital foundational work encountered in this study---Kuhn (1962), The Essential Tension (1977), Schr\"{o}dinger (1926), Einstein SR (1905)---returned empty reference sets.}
+
+\subsection{Two Substrate Boundary Conditions}
+
+The Semantic Scholar citation graph has two hard edges:
+
+\textbf{Lag edge (future):} Papers published within approximately six months have no indexed reference graphs. The backward path is dark. The substrate is in active ingestion.
+
+\textbf{Pre-digital edge (past):} Papers published before approximately 1990 have no indexed reference graphs. The core indexable region is \textbf{1990--2025}: a 35-year window of human knowledge with full bidirectional fidelity. Both edges are defined, bounded, and architecturally addressable through supplementary instruments (live preprint ingestion for the lag edge; JSTOR, OpenCitations, or PDF parsing for the pre-digital edge).
+
+\subsection{Cross-Domain Entropy Cluster}
+
+An unexpected cluster emerged through traversal. Kuhn's 2026 warm zone contains a hydrology paper (\textit{When physics gets in the way: an entropy-based evaluation of conceptual constraints in hybrid hydrological models}, 2026). This paper's warm zone is military operations research. The cluster: paradigm theory $\to$ physics formalism as epistemological evaluation tool $\to$ operational application in conflict contexts.
+
+These three fields do not cite each other directly. They share a methodology: using entropy as a diagnostic for pre-paradigm conceptual structures. They arrived at this independently. The citation topology made the connection visible before any semantic search would have found it.
+
+\subsection{The Automated Characterization Pipeline}
+
+The three instruments compose into a characterization pipeline requiring no human input beyond an initial frontier seed. All three scouts must complete before any C constant is applied:
+
+\begin{enumerate}
+\item \textbf{Scout 1 (Warm$\to$Cold)} --- discovers cold nodes by following citation weight from the frontier backward. Surfaces cold anchors without declaring them in advance.
+\item \textbf{Scout 2 (Cold$\to$Warm)} --- traces forward from each discovered cold anchor into the warm zone above it. Maps forward propagation behavior: does the path expand across domains (gateway), deepen within one domain (foundation), or close locally (protocol)? This behavioral evidence is essential --- it cannot be inferred from velocity alone.
+\item \textbf{Scout 3 (Omnidirectional)} --- observes each cold node from both directions simultaneously. Confirms the bidirectional profile, flags asymmetries, and validates the functional mode identified by Scout 2.
+\item \textbf{C2 velocity} --- computes cold-entry velocity (citations/year) for each confirmed cold node. Classifies functional mode automatically. The ordinal separation between modes provides independent confirmation of Scout 2's behavioral classification.
+\end{enumerate}
+
+Discovery (Scout 1) $\to$ Forward Mapping (Scout 2) $\to$ Confirmation (Scout 3) $\to$ Velocity Classification (C2).
+
+Scouts 1, 2, and 3 are observational instruments. C2 velocity is the first analytical constant applied to their output.
+
+\section{Discussion}
+
+\subsection{What This Is Not}
+
+This is not a knowledge graph (a declared structure). This is a read structure---one that emerges from following the weight of the substrate without imposing categories. It is not a recommendation engine, and it is not citation analysis in the conventional sense. Citation analysis asks: which papers are most cited? This asks: what structural role does a node play, and how long has it held that role?
+
+\subsection{Hallucination as Routing Failure}
+
+If hallucination is a routing problem, the context space addresses it at the structural level. A language model routed through a context space that correctly identifies cold anchors, pre-paradigm regions, and lag-state nodes will route queries to structurally appropriate regions. The reduction in hallucination is a consequence of reading the topology, not of adding more data.
+
+\subsection{Corpus-Specific Calibration}
+
+The velocity thresholds reported here are empirical observations from one corpus. Citation cultures vary by field and substrate. The ordinal relationship (gateway $<$ protocol $<$ foundation) is hypothesized to be universal. The specific numbers are what this substrate told us about itself. Researchers applying this methodology to other corpora should report their velocity distributions to contribute to cross-substrate validation.
+
+\subsection{Showrunr as Prior Art}
+
+The state machine underlying Showrunr---a live event production management system---operates on containment-before-correction logic that distinguishes load-bearing constraints (venue, power, schedule) from operational constraints (rider compliance, crew communication). This maps directly to the foundation/protocol functional mode split. The methodology has production miles. The theoretical framework was articulated after the fact, not before.
+
+\subsection{The Operating Principle}
+
+Every finding in this paper was produced by the same methodology: run the instrument without pre-declaring what it should find, then read what appeared. When we pre-declared cold anchors (Scout 2's original seed list of historical physics papers), every seed returned wrong papers or failed entirely. When we followed the topology (Scout 1 with no constraints), it found Kuhn in one hop from a topological qubit paper.
+
+\textit{Assume nothing. Enforce nothing. Trust the substrate.}
+
+This is not a research heuristic. It is a statement about the relationship between instruments and the substrates they measure. An instrument that imposes structure on what it measures will find the structure it imposed. An instrument that reads the natural geometry will find the geometry.
+
+\section{Open Questions}
+
+\begin{itemize}
+\item \textbf{C2 temporal persistence---Kotter:} does protocol field spread hold consistently narrow across decades?
+\item \textbf{C2 full time-series:} year-over-year citation rate curves for all three functional modes, replacing scalar mean with true velocity trajectory
+\item \textbf{C3 (Connection Decay by Path Length):} does influence decay with distance from a cold anchor? Does decay rate differ by functional mode?
+\item \textbf{C4 (Encounter Deposit / No Erasure):} when multiple traversal paths converge on the same node, does the encounter strengthen the field?
+\item \textbf{Hydrology paper scheduled re-observation:} paper ID \texttt{35d163e6b6a1acf6b36e433456a64c85b6d45652}, June 2026. 104 currently-dark references will be indexed. Will determine whether pre-paradigm physics work roots into physics cold anchors or epistemological ones.
+\item \textbf{GPT-4 temporal profile:} re-examine 2028. Current velocity (7,651/yr) is a significant underestimate of actual current rate.
+\item \textbf{Cross-substrate replication:} legal citation networks, software dependency graphs, patent networks. Do functional modes and their ordinal velocity relationship hold?
+\end{itemize}
+
+\section{Conclusion}
+
+C1 alone produced: five node states, three functional modes, a velocity-based automatic type classifier, three empty-path states, two substrate boundary conditions, a cross-domain entropy cluster, and an automated characterization pipeline. C2, C3, and C4 have not yet run.
+
+The context space is a substrate-native reading instrument. It finds what the substrate contains by reading the substrate's own structure. The findings are what the substrate produced when we stopped telling it what to contain.
+
+\section*{Supplementary Material}
+
+Full emergence log (16 entries), traversal scripts, and raw data outputs:\\
+\url{https://github.com/kiheras11-cpu/context-space}
+
+\textit{All scripts are released under MIT license. The emergence log is the primary observational record---not a summary derived from the data, but the data itself, written at the moment of discovery.}
+
+\end{document}

@@ -1,0 +1,88 @@
+==============================================================================
+            C1 + C2 ANALYSIS — QUANTUM OS INTERNAL CITATION CORPUS            
+         QOS paper reference list only | 27 papers | Run: 2026-03-22          
+==============================================================================
+
+── C2 VELOCITY MAP (citations/year) ──
+   ◆ FOUNDATION >1000/yr   ● PROTOCOL 200-1000/yr   ○ GATEWAY <200/yr
+   [C]=COLD  [A]=ACTIVE-UNANCHORED  [S]=STRUCT-REAL-FRONTIER-INVISIBLE  [F]=FLOOR
+
+  ┌─ COLD ZONE (10) ─────────────────────────────────────────────────────┐
+  │ [C] ◆ Nielsen_Chuang         2000 │██████████████████████████░░░░│  1603.1/yr  src=4
+  │ [C] ● Penrose                1989 │████████░░░░░░░░░░░░░░░░░░░░░░│   483.9/yr  src=2
+  │ [C] ● Shadlen_Newsome        2001 │█████░░░░░░░░░░░░░░░░░░░░░░░░░│   309.5/yr  src=2
+  │ [C] ● Ratcliff               1978 │████░░░░░░░░░░░░░░░░░░░░░░░░░░│   290.5/yr  src=2
+  │ [C] ● Dalibard_Castin_Molmer 1992 │████░░░░░░░░░░░░░░░░░░░░░░░░░░│   277.8/yr  src=3
+  │ [C] ○ Molmer_Castin_Dalibard 1993 │██░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   174.4/yr  src=2
+  │ [C] ○ Landauer               1961 │██░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   168.7/yr  src=3
+  │ [C] ○ Hameroff_Penrose       1996 │██░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   139.1/yr  src=2
+  │ [C] ○ Aharonov_et_al         1988 │██░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   136.1/yr  src=2
+  │ [C] ○ Ekert_et_al            2002 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│    86.6/yr  src=2
+  └────────────────────────────────────────────────────────────────────────┘
+
+  ┌─ ACTIVE-UNANCHORED (6) ─────────────────────────────────────────────────────┐
+  │ [A] ◆ Mi_et_al_Google        2021 │██████████████████████████████│  1800.0/yr  src=3
+  │ [A] ● Wilczek                2012 │████████████░░░░░░░░░░░░░░░░░░│   770.0/yr  src=2
+  │ [A] ● Preskill               2018 │█████░░░░░░░░░░░░░░░░░░░░░░░░░│   310.0/yr  src=2
+  │ [A] ● Krantz_et_al           2019 │█████░░░░░░░░░░░░░░░░░░░░░░░░░│   301.0/yr  src=2
+  │ [A] ● Else_Bauer_Nayak       2016 │███░░░░░░░░░░░░░░░░░░░░░░░░░░░│   231.0/yr  src=2
+  │ [A] ○ Hameroff_Penrose_2014  2014 │██░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   173.0/yr  src=2
+  └────────────────────────────────────────────────────────────────────────┘
+
+  ┌─ STRUCT-REAL-FRONTIER-INVISIBLE (7) ─────────────────────────────────────────────────────┐
+  │ [S] ● Peskin_Schroeder       1995 │███████████░░░░░░░░░░░░░░░░░░░│   705.1/yr  src=1
+  │ [S] ● Gottesman              1997 │████░░░░░░░░░░░░░░░░░░░░░░░░░░│   287.0/yr  src=1
+  │ [S] ○ Farhi_et_al            2001 │██░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   137.0/yr  src=1
+  │ [S] ○ Tegmark                2000 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   110.0/yr  src=1
+  │ [S] ○ Feynman                1948 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│   108.7/yr  src=1
+  │ [S] ○ Bennett                1982 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│    92.8/yr  src=1
+  │ [S] ○ Szilard                1929 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│    28.8/yr  src=1
+  └────────────────────────────────────────────────────────────────────────┘
+
+  ┌─ FLOOR (4) ─────────────────────────────────────────────────────┐
+  │ [F] ● Zhang_et_al            2017 │███░░░░░░░░░░░░░░░░░░░░░░░░░░░│   203.0/yr  src=1
+  │ [F] ● Choi_et_al             2017 │███░░░░░░░░░░░░░░░░░░░░░░░░░░░│   203.0/yr  src=1
+  │ [F] ○ Cross_OpenQASM         2017 │█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│    89.0/yr  src=1
+  │ [F] ○ IonQ                   2024 │░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│    40.0/yr  src=1
+  └────────────────────────────────────────────────────────────────────────┘
+
+── C1 CROSS-SOURCE WEIGHT MAP (how many research tracks cite this node) ──
+
+  [C] ◆ Nielsen_Chuang           2000  [█████████████████████████] 4 src  1603.1/yr  quantum_foundations
+  [A] ◆ Mi_et_al_Google          2021  [██████████████████░░░░░░░] 3 src  1800.0/yr  quantum_hardware
+  [C] ● Dalibard_Castin_Molmer   1992  [██████████████████░░░░░░░] 3 src  277.8/yr  quantum_physics
+  [C] ○ Landauer                 1961  [██████████████████░░░░░░░] 3 src  168.7/yr  thermodynamics_info
+  [A] ● Wilczek                  2012  [████████████░░░░░░░░░░░░░] 2 src  770.0/yr  quantum_physics
+  [C] ● Penrose                  1989  [████████████░░░░░░░░░░░░░] 2 src  483.9/yr  consciousness
+  [A] ● Preskill                 2018  [████████████░░░░░░░░░░░░░] 2 src  310.0/yr  quantum_hardware
+  [C] ● Shadlen_Newsome          2001  [████████████░░░░░░░░░░░░░] 2 src  309.5/yr  neuroscience
+  [A] ● Krantz_et_al             2019  [████████████░░░░░░░░░░░░░] 2 src  301.0/yr  quantum_hardware
+  [C] ● Ratcliff                 1978  [████████████░░░░░░░░░░░░░] 2 src  290.5/yr  neuroscience
+  [A] ● Else_Bauer_Nayak         2016  [████████████░░░░░░░░░░░░░] 2 src  231.0/yr  quantum_physics
+  [C] ○ Molmer_Castin_Dalibard   1993  [████████████░░░░░░░░░░░░░] 2 src  174.4/yr  quantum_physics
+  [A] ○ Hameroff_Penrose_2014    2014  [████████████░░░░░░░░░░░░░] 2 src  173.0/yr  consciousness
+  [C] ○ Hameroff_Penrose         1996  [████████████░░░░░░░░░░░░░] 2 src  139.1/yr  consciousness
+  [C] ○ Aharonov_et_al           1988  [████████████░░░░░░░░░░░░░] 2 src  136.1/yr  quantum_physics
+  [C] ○ Ekert_et_al              2002  [████████████░░░░░░░░░░░░░] 2 src  86.6/yr  quantum_physics
+  [S] ● Peskin_Schroeder         1995  [██████░░░░░░░░░░░░░░░░░░░] 1 src  705.1/yr  quantum_field_theory
+  [S] ● Gottesman                1997  [██████░░░░░░░░░░░░░░░░░░░] 1 src  287.0/yr  quantum_error_corr
+  [F] ● Zhang_et_al              2017  [██████░░░░░░░░░░░░░░░░░░░] 1 src  203.0/yr  quantum_physics
+  [F] ● Choi_et_al               2017  [██████░░░░░░░░░░░░░░░░░░░] 1 src  203.0/yr  quantum_physics
+  [S] ○ Farhi_et_al              2001  [██████░░░░░░░░░░░░░░░░░░░] 1 src  137.0/yr  quantum_computing
+  [S] ○ Tegmark                  2000  [██████░░░░░░░░░░░░░░░░░░░] 1 src  110.0/yr  neuroscience
+  [S] ○ Feynman                  1948  [██████░░░░░░░░░░░░░░░░░░░] 1 src  108.7/yr  quantum_physics
+  [S] ○ Bennett                  1982  [██████░░░░░░░░░░░░░░░░░░░] 1 src  92.8/yr  thermodynamics_info
+  [F] ○ Cross_OpenQASM           2017  [██████░░░░░░░░░░░░░░░░░░░] 1 src  89.0/yr  quantum_software
+  [F] ○ IonQ                     2024  [██████░░░░░░░░░░░░░░░░░░░] 1 src  40.0/yr  quantum_hardware
+  [S] ○ Szilard                  1929  [██████░░░░░░░░░░░░░░░░░░░] 1 src  28.8/yr  thermodynamics_info
+
+── LEGEND ──
+  ◆ FOUNDATION (>1000/yr)   ● PROTOCOL (200-1000/yr)   ○ GATEWAY (<200/yr)
+  [C] COLD — old + multi-source (confirmed foundational)
+  [A] ACTIVE-UNANCHORED — recent + multi-source (moving fast, not yet cold)
+  [S] STRUCT-REAL-FRONTIER-INVISIBLE — old + single source (undervalued seam)
+  [F] FLOOR — recent + single source (instrumental)
+
+  src = number of distinct research tracks that reference this node
+  vel = citations per year since publication (C2 velocity)
+==============================================================================

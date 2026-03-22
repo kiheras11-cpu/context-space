@@ -1,0 +1,69 @@
+{
+  "scout": "warm_to_cold_loop",
+  "run_timestamp": "2026-03-22T08:33:59.014184+00:00",
+  "chains": [
+    {
+      "seed": "Transformational and Transactional Leaders \u2014 Role in Implementing Change (2023, 27 cites)",
+      "chain": [
+        {
+          "title": "Transformational and Transactional Leaders and Their Role in Implement",
+          "paper_id": "71e45ca36bbcc935d04b532cca00aed8bb4e6c66",
+          "year": 2023,
+          "citation_count": 27,
+          "depth": 0,
+          "zone": "frontier",
+          "seed_label": "Transformational and Transactional Leaders \u2014 Role in Implementing Change (2023, 27 cites)"
+        },
+        {
+          "title": "Issues and Implications of Readiness to Change",
+          "paper_id": "f2a55a6297b437a22501a8eb1de004402d48337c",
+          "year": 2021,
+          "citation_count": 32,
+          "depth": 1,
+          "zone": "frontier",
+          "siblings": [
+            "The Mechanism Underlying the Sustainable",
+            "Entrepreneurial ecosystem, gig\u00a0economy p"
+          ]
+        },
+        {
+          "title": "Unpacking organizational readiness for change: an updated systematic r",
+          "paper_id": "7a4d19b5d33628b6c6ca988aea7e279110db3d84",
+          "year": 2020,
+          "citation_count": 128,
+          "depth": 2,
+          "zone": "warm",
+          "siblings": [
+            "The impact of leadership on firm financi",
+            "Managing Employee Performance: From Lead"
+          ]
+        },
+        {
+          "title": "Preferred reporting items for systematic review and meta-analysis prot",
+          "paper_id": "c79e9453b01712443e4da79096716e4f57f4e732",
+          "year": 2015,
+          "citation_count": 15680,
+          "depth": 3,
+          "zone": "cold",
+          "siblings": [
+            "Measurement resources for dissemination ",
+            "Readiness of healthcare providers for eH"
+          ]
+        }
+      ],
+      "length": 4,
+      "zones_traversed": [
+        "frontier",
+        "warm",
+        "cold"
+      ],
+      "reached_cold": true
+    }
+  ],
+  "summary": {
+    "seeds_attempted": 1,
+    "chains_collected": 1,
+    "chains_reaching_cold": 1,
+    "avg_length": 4.0
+  }
+}
