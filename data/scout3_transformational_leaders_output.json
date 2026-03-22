@@ -1,0 +1,101 @@
+{
+  "scout": "ei_helper_from_id",
+  "run_timestamp": "2026-03-22T08:53:38.062330+00:00",
+  "observations": [
+    {
+      "label": "Transformational and Transactional Leaders \u2014 Role in Implementing Change (2023)",
+      "found": true,
+      "paper_id": "71e45ca36bbcc935d04b532cca00aed8bb4e6c66",
+      "year": 2023,
+      "total_citations": 27,
+      "total_references": 93,
+      "cold_profile": [
+        {
+          "title": "Sustainable development: The colors of sustainable leadership in ",
+          "year": 2020,
+          "citation_count": 200
+        },
+        {
+          "title": "Toward a methodology for studying leadership-as-practice",
+          "year": 2020,
+          "citation_count": 58
+        },
+        {
+          "title": "Issues and Implications of Readiness to Change",
+          "year": 2021,
+          "citation_count": 32
+        },
+        {
+          "title": "The Mechanism Underlying the Sustainable Performance of Transform",
+          "year": 2022,
+          "citation_count": 25
+        },
+        {
+          "title": "Entrepreneurial ecosystem, gig\u00a0economy practices and Women's entr",
+          "year": 2023,
+          "citation_count": 17
+        },
+        {
+          "title": "Interdisciplinary Exploration between Organizational Culture and ",
+          "year": 2023,
+          "citation_count": 16
+        }
+      ],
+      "warm_profile": [
+        {
+          "title": "Green Transformational Leadership and Value\u2013Action Barrier on Emp",
+          "year": 2026,
+          "citation_count": 1
+        },
+        {
+          "title": "Developing A Teaching Factory Management Model to Improve Entrepr",
+          "year": 2025,
+          "citation_count": 1
+        },
+        {
+          "title": "Leadership in the pursuit of net-zero emissions: overcoming barri",
+          "year": 2025,
+          "citation_count": 1
+        },
+        {
+          "title": "Gendered leadership in the Gulf: cultural norms, leadership style",
+          "year": 2026,
+          "citation_count": 0
+        },
+        {
+          "title": "A critical review of Kotter\u2019s change leadership model: Relevance,",
+          "year": 2026,
+          "citation_count": 0
+        },
+        {
+          "title": "The Influence of Leadership, Work Environment, and Motivation on ",
+          "year": 2025,
+          "citation_count": 0
+        }
+      ],
+      "metrics": {
+        "cold_avg": 39.3,
+        "warm_avg": 0.3,
+        "asymmetry": -39.0,
+        "asymmetry_label": "BALANCED",
+        "year_spread": 6,
+        "cold_count": 10,
+        "warm_count": 10
+      },
+      "flags": [
+        "BALANCED_BRIDGE: similar weight both directions"
+      ]
+    }
+  ],
+  "anomaly_summary": {
+    "found": [
+      "Transformational and Transactional Leaders \u2014 Role in Implementing Change (2023)"
+    ],
+    "not_found": [],
+    "flagged": {
+      "Transformational and Transactional Leaders \u2014 Role in Implementing Change (2023)": [
+        "BALANCED_BRIDGE: similar weight both directions"
+      ]
+    }
+  }
+}
