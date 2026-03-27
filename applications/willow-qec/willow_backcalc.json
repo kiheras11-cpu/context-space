@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-03-27T00:31:32.278161",
+  "source": "Acharya et al. 2024 (arXiv:2408.13687)",
+  "lambda_flat": 6.134969325153374,
+  "lambda_observed_mean": 2.08625,
+  "lambda_variance": 3.19,
+  "curvature_factor": 0.34005875,
+  "deficit_pct": 65.994125,
+  "var_ler_ratio": 1.5290593169562612,
+  "log_linearity_deviation": 0.000201,
+  "decoder_residuals": {
+    "mean": 2.08625,
+    "total_spread": 0.10499999999999998,
+    "libra_residual": 0.0009999999999998899,
+    "neural_residual": 0.0259999999999998,
+    "decoder_gap": -0.09150000000000036
+  },
+  "curved_parameters": {
+    "curvature_factor": 0.34005875,
+    "scale_compression": 0.001,
+    "combined_factor": 0.00034005875,
+    "cold_threshold": 17.0029375,
+    "warm_threshold": 1.70029375,
+    "velocity_high": 0.34005875,
+    "velocity_medium": 0.06801175
+  },
+  "flat_parameters": {
+    "cold_threshold": 50000,
+    "warm_threshold": 5000,
+    "velocity_high": 1000,
+    "velocity_medium": 200
+  },
+  "flags": {
+    "p_physical_needs_verify": true,
+    "note": "p_physical estimated at ~0.163%. Verify against Acharya et al. 2024 supplementary."
+  }
+}

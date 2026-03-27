@@ -1,0 +1,900 @@
+{
+  "date": "2026-03-27",
+  "total": 28,
+  "seeds": 1,
+  "state_distribution": {
+    "FLOOR": 28
+  },
+  "papers": [
+    {
+      "paperId": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec",
+      "title": "Three-dimensional universality class of the Ising model with power-law correlated critical disorder",
+      "year": 2019,
+      "citationCount": 7,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/1908.01880",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1908.01880, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "49337449",
+          "name": "Wenlong Wang"
+        },
+        {
+          "authorId": "38994703",
+          "name": "Hannes Meier"
+        },
+        {
+          "authorId": "6733864",
+          "name": "J. Lidmar"
+        },
+        {
+          "authorId": "37975455",
+          "name": "M. Wallin"
+        }
+      ],
+      "abstract": "We use large-scale Monte Carlo simulations to test the Weinrib-Halperin criterion that predicts new universality classes in the presence of sufficiently slowly decaying power-law-correlated quenched disorder. While new universality classes are reasonably well established, the predicted exponents are controversial. We propose a method of growing such correlated disorder using the three-dimensional Ising model as benchmark systems both for generating disorder and studying the resulting phase transition. Critical equilibrium configurations of a disorder-free system are used to define the two-value distributed random bonds with a small power-law exponent given by the pure Ising exponent. Finite-size scaling analysis shows a new universality class with a single phase transition, but the critical exponents $\\nu_d=1.13(5), \\eta_d=0.48(3)$ differ significantly from theoretical predictions. We find that depending on details of the disorder generation, disorder-averaged quantities can develop peaks at two temperatures for finite sizes. Finally, a layer model with the two values of bonds spatially separated to halves of the system genuinely has multiple phase transitions and thermodynamic properties can be flexibly tuned by adjusting the model parameters.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 1.0,
+      "is_seed": true
+    },
+    {
+      "paperId": "08227de81e9fb3d89293434c9000ea3eccdc8113",
+      "title": "Melting of a two-dimensional monodisperse cluster crystal to a cluster liquid.",
+      "year": 2018,
+      "citationCount": 7,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/1812.01113",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1812.01113, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "49337449",
+          "name": "Wenlong Wang"
+        },
+        {
+          "authorId": "1422628453",
+          "name": "R. D\u00edaz-M\u00e9ndez"
+        },
+        {
+          "authorId": "37975455",
+          "name": "M. Wallin"
+        },
+        {
+          "authorId": "6733864",
+          "name": "J. Lidmar"
+        },
+        {
+          "authorId": "38953545",
+          "name": "E. Babaev"
+        }
+      ],
+      "abstract": "Monodisperse ensembles of particles that have cluster crystalline phases at low temperatures can model a number of physical systems, such as vortices in type-1.5 superconductors, colloidal suspensions, and cold atoms. In this work, we study a two-dimensional cluster-forming particle system interacting via an ultrasoft potential. We present a simple mean-field characterization of the cluster-crystal ground state, corroborating with Monte Carlo simulations for a wide range of densities. The efficiency of several Monte Carlo algorithms is compared, and the challenges of thermal equilibrium sampling are identified. We demonstrate that the liquid to cluster-crystal phase transition is of first order and occurs in a single step, and the liquid phase is a cluster liquid.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.9,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "80fe67a2240e4d5799d0906c8f82e6d1dbf6295e",
+      "title": "Geometric properties of the Fortuin-Kasteleyn representation of the Ising model.",
+      "year": 2018,
+      "citationCount": 22,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/1811.03358",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1811.03358, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "152661056",
+          "name": "Pengcheng Hou"
+        },
+        {
+          "authorId": "2111803785",
+          "name": "S. Fang"
+        },
+        {
+          "authorId": "2110185191",
+          "name": "Junfeng Wang"
+        },
+        {
+          "authorId": "39580958",
+          "name": "Hao Hu"
+        },
+        {
+          "authorId": "20530509",
+          "name": "Youjin Deng"
+        }
+      ],
+      "abstract": "We present a Monte Carlo study of the geometric properties of Fortuin-Kasteleyn (FK) clusters of the Ising model on square [two-dimensional (2D)] and simple-cubic [three-dimensional (3D)] lattices. The wrapping probability, a dimensionless quantity characterizing the topology of the FK clusters on a torus, is found to suffer from smaller finite-size corrections than the well-known Binder ratio and yields a high-precision critical coupling as K_{c}(3D)=0.221654631(8). We then study other geometric properties of FK clusters at criticality. It is demonstrated that the distribution of the critical largest-cluster size C_{1} follows a single-variable function as P(C_{1},L)dC_{1}=P[over \u0303](x)dx with x\u2261C_{1}/L^{d_{F}} (L is the linear size), where the fractal dimension d_{F} is identical to the magnetic exponent. An interesting bimodal feature is observed in distribution P[over \u0303](x) in three dimensions, and attributed to the different approaching behaviors for K\u2192K_{c}+0^{\u00b1}. To characterize the compactness of the FK clusters, we measure their graph distances and determine the shortest-path exponents as d_{min}(3D)=1.25936(12) and d_{min}(2D)=1.0940(2). Further, by excluding all the bridges from the occupied bonds, we obtain bridge-free configurations and determine the backbone exponents as d_{B}(3D)=2.1673(15) and d_{B}(2D)=1.7321(4). The estimates of the universal wrapping probabilities for the 3D Ising model and of the geometric critical exponents d_{min} and d_{B} either improve over the existing results or have not been reported yet. We believe that these numerical results would provide a testing ground in the development of further theoretical treatments of the 3D Ising model.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 2.8,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "c7ab75c7ab1bdb0277d4514963c588cc94b6f8e4",
+      "title": "Pushing the limits of Monte Carlo simulations for the three-dimensional Ising model.",
+      "year": 2017,
+      "citationCount": 131,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/1806.03558",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1806.03558, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "69354234",
+          "name": "A. M. Ferrenberg"
+        },
+        {
+          "authorId": "10996020",
+          "name": "Jiahao Xu"
+        },
+        {
+          "authorId": "93170840",
+          "name": "D. Landau"
+        }
+      ],
+      "abstract": "While the three-dimensional Ising model has defied analytic solution, various numerical methods like Monte Carlo, Monte Carlo renormalization group, and series expansion have provided precise information about the phase transition. Using Monte Carlo simulation that employs the Wolff cluster flipping algorithm with both 32-bit and 53-bit random number generators and data analysis with histogram reweighting and quadruple precision arithmetic, we have investigated the critical behavior of the simple cubic Ising Model, with lattice sizes ranging from 16^{3} to 1024^{3}. By analyzing data with cross correlations between various thermodynamic quantities obtained from the same data pool, e.g., logarithmic derivatives of magnetization and derivatives of magnetization cumulants, we have obtained the critical inverse temperature K_{c}=0.221654626(5) and the critical exponent of the correlation length \u03bd=0.629912(86) with precision that exceeds all previous Monte Carlo estimates.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 14.6,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "acfa8cdbb2631b813ab7d38ef4efe04e4585ad0d",
+      "title": "GPU accelerated population annealing algorithm",
+      "year": 2017,
+      "citationCount": 56,
+      "openAccessPdf": {
+        "url": "https://pure.coventry.ac.uk/ws/files/12598696/1703.03676v2.pdf",
+        "status": "GREEN",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1703.03676, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "1797372",
+          "name": "L. Barash"
+        },
+        {
+          "authorId": "1897666",
+          "name": "M. Weigel"
+        },
+        {
+          "authorId": "2080091",
+          "name": "M. Borovsk\u00fd"
+        },
+        {
+          "authorId": "102673662",
+          "name": "W. Janke"
+        },
+        {
+          "authorId": "1862735",
+          "name": "L. Shchur"
+        }
+      ],
+      "abstract": "Abstract Population annealing is a promising recent approach for Monte Carlo simulations in statistical physics, in particular for the simulation of systems with complex free-energy landscapes. It is a hybrid method, combining importance sampling through Markov chains with elements of sequential Monte Carlo in the form of population control. While it appears to provide algorithmic capabilities for the simulation of such systems that are roughly comparable to those of more established approaches such as parallel tempering, it is intrinsically much more suitable for massively parallel computing. Here, we tap into this structural advantage and present a highly optimized implementation of the population annealing algorithm on GPUs that promises speed-ups of several orders of magnitude as compared to a serial implementation on CPUs. While the sample code is for simulations of the 2D ferromagnetic Ising model, it should be easily adapted for simulations of other spin models, including disordered systems. Our code includes implementations of some advanced algorithmic features that have only recently been suggested, namely the automatic adaptation of temperature steps and a multi-histogram analysis of the data at different temperatures. Program summary Program Title: PAIsing Program Files doi: http://dx.doi.org/10.17632/sgzt4b7b3m.1 Licensing provisions: Creative Commons Attribution license (CC BY 4.0) Programming language: C, CUDA External routines/libraries: NVIDIA CUDA Toolkit 6.5 or newer Nature of problem: The program calculates the internal energy, specific heat, several magnetization moments, entropy and free energy of the 2D Ising model on square lattices of edge length L with periodic boundary conditions as a function of inverse temperature \u03b2 . Solution method: The code uses population annealing, a hybrid method combining Markov chain updates with population control. The code is implemented for NVIDIA GPUs using the CUDA language and employs advanced techniques such as multi-spin coding, adaptive temperature steps and multi-histogram reweighting. Additional comments: Code repository at https://github.com/LevBarash/PAising . The system size and size of the population of replicas are limited depending on the memory of the GPU device used. For the default parameter values used in the sample programs, L = 64 , \u03b8 = 100 , \u03b2 0 = 0 , \u03b2 f = 1 , \u0394 \u03b2 = 0 . 005 , R = 20 000 , a typical run time on an NVIDIA Tesla K80 GPU is 151\u00a0seconds for the single spin coded (SSC) and 17\u00a0seconds for the multi-spin coded (MSC) program (see Section 2 for a description of these parameters).",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 6.2,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "42fef7d225547128af58629f43494bd106409993",
+      "title": "Precision islands in the Ising and O(N ) models",
+      "year": 2016,
+      "citationCount": 435,
+      "openAccessPdf": {
+        "url": "https://link.springer.com/content/pdf/10.1007%2FJHEP08%282016%29036.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1603.04436, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "50002943",
+          "name": "F. Kos"
+        },
+        {
+          "authorId": "102147257",
+          "name": "D. Poland"
+        },
+        {
+          "authorId": "1403845852",
+          "name": "D. Simmons-Duffin"
+        },
+        {
+          "authorId": "5926706",
+          "name": "A. Vichi"
+        }
+      ],
+      "abstract": "A bstractWe make precise determinations of the leading scaling dimensions and operator product expansion (OPE) coefficients in the 3d Ising, O(2), and O(3) models from the conformal bootstrap with mixed correlators. We improve on previous studies by scanning over possible relative values of the leading OPE coefficients, which incorporates the physical information that there is only a single operator at a given scaling dimension. The scaling dimensions and OPE coefficients obtained for the 3d Ising model, (\u0394\u03c3, \u0394\u03f5, \u03bb\u03c3\u03c3\u03f5, \u03bb\u03f5\u03f5\u03f5) = (0.5181489(10), 1.412625(10), 1.0518537(41), 1.532435(19) , give the most precise determinations of these quantities to date.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 43.5,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "355eeee8a34c6d950a27c89baef68aef77213e9a",
+      "title": "Population annealing: Theory and application in spin glasses.",
+      "year": 2015,
+      "citationCount": 67,
+      "openAccessPdf": {
+        "url": "https://link.aps.org/accepted/10.1103/PhysRevE.92.063307",
+        "status": "HYBRID",
+        "license": "publisher-specific, author manuscript",
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1508.05647, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "49337449",
+          "name": "Wenlong Wang"
+        },
+        {
+          "authorId": "2209151",
+          "name": "J. Machta"
+        },
+        {
+          "authorId": "2823504",
+          "name": "H. Katzgraber"
+        }
+      ],
+      "abstract": "Population annealing is an efficient sequential Monte Carlo algorithm for simulating equilibrium states of systems with rough free-energy landscapes. The theory of population annealing is presented, and systematic and statistical errors are discussed. The behavior of the algorithm is studied in the context of large-scale simulations of the three-dimensional Ising spin glass and the performance of the algorithm is compared to parallel tempering. It is found that the two algorithms are similar in efficiency though with different strengths and weaknesses.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 6.1,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "ab1f1ebae74f8a7fff021438f8a6a66f1803ebad",
+      "title": "Comparing Monte Carlo methods for finding ground states of Ising spin glasses: Population annealing, simulated annealing, and parallel tempering.",
+      "year": 2014,
+      "citationCount": 82,
+      "openAccessPdf": {
+        "url": "https://link.aps.org/accepted/10.1103/PhysRevE.92.013303",
+        "status": "HYBRID",
+        "license": "publisher-specific, author manuscript",
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1412.2104, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "49337449",
+          "name": "Wenlong Wang"
+        },
+        {
+          "authorId": "2209151",
+          "name": "J. Machta"
+        },
+        {
+          "authorId": "2823504",
+          "name": "H. Katzgraber"
+        }
+      ],
+      "abstract": "Population annealing is a Monte Carlo algorithm that marries features from simulated-annealing and parallel-tempering Monte Carlo. As such, it is ideal to overcome large energy barriers in the free-energy landscape while minimizing a Hamiltonian. Thus, population-annealing Monte Carlo can be used as a heuristic to solve combinatorial optimization problems. We illustrate the capabilities of population-annealing Monte Carlo by computing ground states of the three-dimensional Ising spin glass with Gaussian disorder, while comparing to simulated-annealing and parallel-tempering Monte Carlo. Our results suggest that population annealing Monte Carlo is significantly more efficient than simulated annealing but comparable to parallel-tempering Monte Carlo for finding spin-glass ground states.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 6.8,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "2b68312dab7e34babc23aff14fbc4d134780bf4d",
+      "title": "Evidence against a mean-field description of short-range spin glasses revealed through thermal boundary conditions",
+      "year": 2014,
+      "citationCount": 33,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/1408.0438",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1408.0438, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "49337449",
+          "name": "Wenlong Wang"
+        },
+        {
+          "authorId": "2209151",
+          "name": "J. Machta"
+        },
+        {
+          "authorId": "2823504",
+          "name": "H. Katzgraber"
+        }
+      ],
+      "abstract": "A theoretical description of the low-temperature phase of short-range spin glasses has remained elusive for decades. In particular, it is unclear if theories that assert a single pair of pure states, or theories that are based infinitely many pure states-such as replica symmetry breaking-best describe realistic short-range systems. To resolve this controversy, the three-dimensional Edwards-Anderson Ising spin glass in thermal boundary conditions is studied numerically using population annealing Monte Carlo. In thermal boundary conditions all eight combinations of periodic vs antiperiodic boundary conditions in the three spatial directions appear in the ensemble with their respective Boltzmann weights, thus minimizing finite-size corrections due to domain walls. From the relative weighting of the eight boundary conditions for each disorder instance a sample stiffness is defined, and its typical value is shown to grow with system size according to a stiffness exponent. An extrapolation to the large-system-size limit is in agreement with a description that supports the droplet picture and other theories that assert a single pair of pure states. The results are, however, incompatible with the mean-field replica symmetry breaking picture, thus highlighting the need to go beyond mean-field descriptions to accurately describe short-range spin-glass systems.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 2.8,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "233613e63ba862862ec4bfd8b3a81ebd8bb36dc3",
+      "title": "Griffiths phase and critical behavior of the two-dimensional Potts models with long-range correlated disorder.",
+      "year": 2013,
+      "citationCount": 9,
+      "openAccessPdf": {
+        "url": "http://arxiv.org/pdf/1308.0734",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1308.0734, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "6437810",
+          "name": "Christophe Chatelain"
+        }
+      ],
+      "abstract": "The q-state Potts model with long-range correlated disorder is studied by means of large-scale Monte Carlo simulations for q=2, 4, 8, and 16. Evidence is given of the existence of a Griffiths phase, where the thermodynamic quantities display an algebraic finite-size scaling, in a finite range of temperatures. The critical exponents are shown to depend on both the temperature and the exponent of the algebraic decay of disorder correlations, but not on the number of states of the Potts model. The mechanism leading to the violation of hyperscaling relations is observed in the entire Griffiths phase.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.7,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "58eb5a1df6214695df5838d372ac3600be12d0d4",
+      "title": "Hyperscaling violation in the 2D 8-state Potts model with long-range correlated disorder",
+      "year": 2013,
+      "citationCount": 4,
+      "openAccessPdf": {
+        "url": "http://arxiv.org/pdf/1303.1991",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1303.1991, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "6437810",
+          "name": "Christophe Chatelain"
+        }
+      ],
+      "abstract": "The first-order phase transition of the two-dimensional eight-state Potts model is shown to be rounded when long-range correlated disorder is coupled to energy density. Critical exponents are estimated by means of large-scale Monte Carlo simulations. In contrast to uncorrelated disorder, a violation of the hyperscaling relation \u03b3/\u03bd = d \u2212 2x\u03c3 is observed. Even though the system is not frustrated, disorder fluctuations are strong enough to cause this violation in the very same way as in the 3D random-field Ising model. In the thermal sector, too, evidence is given for such violation in the two hyperscaling relations \u03b1/\u03bd = d \u2212 2x\u03b5 and 1/\u03bd = d \u2212 x\u03b5. In contrast to the random field Ising model, at least two hyperscaling violation exponents are needed. The scaling dimension of energy is conjectured to be x\u03b5 = a/2, where a is the exponent of the algebraic decay of disorder correlations.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.3,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "a86464aeec7737005d6896bd0e1645d4f06e2f28",
+      "title": "Wang-Landau study of the 3D Ising model with bond disorder",
+      "year": 2011,
+      "citationCount": 6,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1104.3524, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "6656170",
+          "name": "P. Theodorakis"
+        },
+        {
+          "authorId": "6656170",
+          "name": "P. Theodorakis"
+        },
+        {
+          "authorId": "5213379",
+          "name": "N. Fytas"
+        }
+      ],
+      "abstract": "Abstract\nWe implement a two-stage approach of the Wang-Landau algorithm to investigate the critical properties of the 3D Ising\nmodel with quenched bond randomness. In particular, we consider the case where disorder couples to the nearest-neighbor\nferromagnetic interaction, in terms of a bimodal distribution of strong versus weak bonds. Our simulations are carried out for\nlarge ensembles of disorder realizations and lattices with linear sizes L in the range $L=8{-}64$. We apply well-established\nfinite-size scaling techniques and concepts from the scaling theory of disordered systems to describe the nature of the phase\ntransition of the disordered model, departing gradually from the fixed point of the pure system. Our analysis (based on the\ndetermination of the critical exponents) shows that the 3D random-bond Ising model belongs to the same universality class with the site- and bond-dilution models, providing a single\nuniversality class for the 3D Ising model with these three types of quenched uncorrelated disorder.\n",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.4,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "19b6cd38c420d907128a23a27fcee6a4e7cf6ba1",
+      "title": "Population annealing with weighted averages: a Monte Carlo method for rough free-energy landscapes.",
+      "year": 2010,
+      "citationCount": 92,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/1006.0252",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1006.0252, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2252088337",
+          "name": "Jon Machta"
+        }
+      ],
+      "abstract": "The population annealing algorithm introduced by Hukushima and Iba is described. Population annealing combines simulated annealing and Boltzmann weighted differential reproduction within a population of replicas to sample equilibrium states. Population annealing gives direct access to the free energy. It is shown that unbiased measurements of observables can be obtained by weighted averages over many runs with weight factors related to the free-energy estimate from the run. Population annealing is well suited to parallelization and may be a useful alternative to parallel tempering for systems with rough free-energy landscapes such as spin glasses. The method is demonstrated for spin glasses.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 5.8,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "c5cabda7d81e889b917b690c60f371ef5003da0d",
+      "title": "Short-Time Critical Dynamics of the Three-Dimensional Systems with Long-Range Correlated Disorder",
+      "year": 2007,
+      "citationCount": 24,
+      "openAccessPdf": {
+        "url": "https://academic.oup.com/ptp/article-pdf/117/6/973/5408497/117-6-973.pdf",
+        "status": "BRONZE",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/0709.0997, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "4882279",
+          "name": "V. Prudnikov"
+        },
+        {
+          "authorId": "6734353",
+          "name": "P. Prudnikov"
+        },
+        {
+          "authorId": "2274125811",
+          "name": "B. Zheng"
+        },
+        {
+          "authorId": "1389782906",
+          "name": "S. Dorofeev"
+        },
+        {
+          "authorId": "1387591104",
+          "name": "V. Kolesnikov"
+        }
+      ],
+      "abstract": "Monte Carlo simulations of the short-time dynamic behavior are reported for threedimensional Ising and XY models with long-range correlated disorder at criticality, in the case corresponding to linear defects. The static and dynamic critical exponents are determined for systems starting separately from ordered and disordered initial states. The obtained values of the exponents are in good agreement with results of the field-theoretic description of the critical behavior of these models in the two-loop approximation and with our results of Monte Carlo simulations of three-dimensional Ising model in equilibrium state.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 1.3,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "4d32887321544c57257d61ed7a1f30f320323d4a",
+      "title": "On the universality class of the 3d Ising model with long-range-correlated disorder",
+      "year": 2006,
+      "citationCount": 11,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/cond-mat/0611568",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/cond-mat/0611568, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "13180301",
+          "name": "D. Ivaneyko"
+        },
+        {
+          "authorId": "1808332",
+          "name": "B. Berche"
+        },
+        {
+          "authorId": "1757995",
+          "name": "Y. Holovatch"
+        },
+        {
+          "authorId": "2239461829",
+          "name": "J. Ilnytskyi"
+        }
+      ],
+      "abstract": "Abstract We analyze a controversial topic about the universality class of the three-dimensional Ising model with long-range-correlated disorder. Whereas both theoretical and numerical studies agree on the validity of the extended Harris criterion [A.\u00a0Weinrib, B.I.\u00a0Halperin, Phys. Rev. B 27 (1983) 413] and indicate the existence of a new universality class, numerical values of the critical exponents found so far differ considerably. To resolve this discrepancy we perform extensive Monte Carlo simulations of a 3d Ising model with non-magnetic impurities being arranged in a form of lines along randomly chosen axes of a lattice. The Swendsen\u2013Wang algorithm is used alongside with a histogram reweighting technique and finite-size scaling analysis to evaluate the values of critical exponents governing magnetic phase transition. Our estimates for these exponents differ from both previous numerical simulations and are in favor of a non-trivial dependency of the critical exponents on the peculiarities of long-range correlation decay.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.6,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "cd9ef6800fb1d79ed93034aa1f0518985c3ace9d",
+      "title": "Simultaneous analysis of several models in the three-dimensional Ising universality class.",
+      "year": 2003,
+      "citationCount": 109,
+      "openAccessPdf": {
+        "url": "https://repository.tudelft.nl/file/File_01c62c5f-93bd-4060-af9d-c25c7fde3ae1",
+        "status": "GREEN",
+        "license": "other-oa",
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1103/PHYSREVE.68.036125?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1103/PHYSREVE.68.036125, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "20530509",
+          "name": "Youjin Deng"
+        },
+        {
+          "authorId": "5466621",
+          "name": "H. Bl\u00f6te"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 4.7,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "d4c8014c219cab52c239d5c937cedb16a7c4f81e",
+      "title": "Irrelevance of canonical or grand canonical constraints near a random fixed point in large L systems.",
+      "year": 2002,
+      "citationCount": 6,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1103/PHYSREVE.65.057104?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1103/PHYSREVE.65.057104, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2218990",
+          "name": "M. Marqu\u00e9s"
+        },
+        {
+          "authorId": "31472694",
+          "name": "J. Gonzalo"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.2,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "4a2c0cb354c008dd55be46974919bf64fe12d09f",
+      "title": "Field-theory approach to critical behavior of systems with long-range correlated defects",
+      "year": 2000,
+      "citationCount": 50,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1103/PHYSREVB.62.8777?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1103/PHYSREVB.62.8777, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "4882279",
+          "name": "V. Prudnikov"
+        },
+        {
+          "authorId": "6734353",
+          "name": "P. Prudnikov"
+        },
+        {
+          "authorId": "4288918",
+          "name": "A. A. Fedorenko"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 1.9,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "3c7bcc0f5788cd77624a2969a4a02f128ba8263c",
+      "title": "Universality class of thermally diluted ising systems at criticality",
+      "year": 2000,
+      "citationCount": 11,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/cond-mat/0001388",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1103/PHYSREVE.62.191?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1103/PHYSREVE.62.191, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2094918302",
+          "name": "Marques"
+        },
+        {
+          "authorId": "2084443681",
+          "name": "Gonzalo"
+        },
+        {
+          "authorId": "30028344",
+          "name": "I\u00f1iguez"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.4,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "fad53e368d5c8972e084ad4f0d3fb8e035fd19f0",
+      "title": "Static and dynamic critical properties of 3D systems with long-range correlated quenched defects",
+      "year": 1999,
+      "citationCount": 21,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1088/0305-4470/32/49/302?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/0305-4470/32/49/302, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "4882279",
+          "name": "V. Prudnikov"
+        },
+        {
+          "authorId": "6734353",
+          "name": "P. Prudnikov"
+        },
+        {
+          "authorId": "4288918",
+          "name": "A. A. Fedorenko"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.8,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "3eb22b00c3f1979b0daf8b9fde6a79630eb6b244",
+      "title": "LETTER TO THE EDITOR: Critical behaviour of 3D systems with long-range correlated quenched defects",
+      "year": 1999,
+      "citationCount": 10,
+      "openAccessPdf": {
+        "url": "http://arxiv.org/pdf/cond-mat/9907378v1.pdf",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/cond-mat/9907378, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "4882279",
+          "name": "V. Prudnikov"
+        },
+        {
+          "authorId": "4288918",
+          "name": "A. A. Fedorenko"
+        }
+      ],
+      "abstract": "A field-theoretic description of the critical behaviour of systems with quenched defects obeying power law correlations ~|x|-a for large separations x is given. Directly, for three-dimensional systems and for different values of the correlation parameter, 2 a3, a renormalization analysis of the scaling function in the two-loop approximation is carried out, and the fixed points corresponding to the stability of various types of critical behaviour are identified. The obtained results essentially differ from results evaluated by a double ,-expansion. The critical exponents in the two-loop approximation are calculated with the use of the Pade-Borel summation technique.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.4,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "e1e175a7abdc945cb0ff975e2937ff0032eb5a10",
+      "title": "Site-diluted three-dimensional Ising model with long-range correlated disorder",
+      "year": 1999,
+      "citationCount": 23,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/cond-mat/9903230",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/cond-mat/9903230, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "5045361",
+          "name": "H. G. Ballesteros"
+        },
+        {
+          "authorId": "145052965",
+          "name": "G. Parisi"
+        }
+      ],
+      "abstract": "We study two different versions of the site-diluted Ising model in three dimensions with long-range spatially correlated disorder by Monte Carlo means. We use finite-size scaling techniques to compute the critical exponents of these systems, taking into account the strong scaling-corrections. We find a $\\nu$ value that is compatible with the analytical predictions.",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 0.9,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "0508154adf8b20d4d8ecc6cf381e9bcbca4838ea",
+      "title": "Exchange Monte Carlo Method and Application to Spin Glass Simulations",
+      "year": 1995,
+      "citationCount": 2103,
+      "openAccessPdf": {
+        "url": "http://arxiv.org/pdf/cond-mat/9512035",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/cond-mat/9512035, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "1975005",
+          "name": "Koji Hukushima"
+        },
+        {
+          "authorId": "16164843",
+          "name": "K. Nemoto"
+        }
+      ],
+      "abstract": "We propose an efficient Monte Carlo algorithm for simulating a \u201chardly-relaxing\u201d system, in which many replicas with different temperatures are simultaneously simulated and a virtual process exchan...",
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 67.8,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "de5a585f99a9ec0da685478f4311b5facae06fac",
+      "title": "Collective Monte Carlo updating for spin systems.",
+      "year": 1989,
+      "citationCount": 1877,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1103/PHYSREVLETT.62.361?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1103/PHYSREVLETT.62.361, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2262188",
+          "name": "U. Wolff"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 50.7,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "f1551c3bb6cdeb7c96f138574096964a9b5164e4",
+      "title": "Replica Monte Carlo simulation of spin glasses.",
+      "year": 1986,
+      "citationCount": 1787,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1103/PHYSREVLETT.57.2607?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1103/PHYSREVLETT.57.2607, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2061649",
+          "name": "R. Swendsen"
+        },
+        {
+          "authorId": "2110189510",
+          "name": "Jian-Sheng Wang"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 44.7,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "c8c97e63edd01eb6da7cc2c4b2ce4ac3da8199e1",
+      "title": "Effect of random defects on the critical behaviour of Ising models",
+      "year": 1974,
+      "citationCount": 1306,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1088/0022-3719/7/9/009?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/0022-3719/7/9/009, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "71938683",
+          "name": "Brooks Harris"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 25.1,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "23ecbe279e1717ef9ba446aebf8e8a181f1c68e7",
+      "title": "The Monte Carlo Method in the Physical Sciences: Celebrating the 50th Anniversary of the Metropolis Algorithm",
+      "year": 2003,
+      "citationCount": 90,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "authors": [
+        {
+          "authorId": "3122483",
+          "name": "J. Gubernatis"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 3.9,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    },
+    {
+      "paperId": "d6c7449ff45ad1f9492a27b972929790e79643ef",
+      "title": "Critical phenomena in systems with long-range-correlated quenched disorder",
+      "year": 1983,
+      "citationCount": 272,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1103/PHYSREVB.27.413?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1103/PHYSREVB.27.413, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "authors": [
+        {
+          "authorId": "2308266",
+          "name": "A. Weinrib"
+        },
+        {
+          "authorId": "31857074",
+          "name": "B. Halperin"
+        }
+      ],
+      "abstract": null,
+      "topic": "Universality class phase transition",
+      "topic_note": "Stat mech \u2014 alpha~2.7 universality class mapping",
+      "state": "FLOOR",
+      "velocity": 6.3,
+      "is_seed": false,
+      "seed_paper_id": "2c5b1b1847ef473db7d714abdf4693d169d2d5ec"
+    }
+  ]
+}
