@@ -1,6 +1,6 @@
 # Context Space: A Substrate-Native Reading Instrument for Knowledge Topology
 
-*Emmanuel K., Lisa K., Erastus K. — Lucent Research Division*
+*Emmanuel K., Lisa T., Erastus K. — Lucent Research Division*
 *Preprint — March 2026*
 *Status: Draft v0.1 — C2 partial, C3 and C4 pending*
 
@@ -171,9 +171,9 @@ Citation cultures vary by field and substrate. Legal scholarship, patent citatio
 
 Researchers applying this methodology to other corpora should: run the scouts without pre-set thresholds, compute velocity for the cold nodes discovered, and read the separation. The thresholds will emerge from the substrate. We report ours. Report yours.
 
-### 4.4 Showrunr as Prior Art
+### 4.4 a production-level event scheduling tool as Prior Art
 
-The state machine underlying Showrunr — a live event production management system — operates on containment-before-correction logic that distinguishes between load-bearing constraints (venue, power, schedule) and operational constraints (rider compliance, crew communication). This distinction maps directly to the foundation/protocol functional mode split. The methodology has production miles. The theoretical framework was articulated after the fact, not before.
+The state machine underlying a production-level event scheduling tool — a live event production management system — operates on containment-before-correction logic that distinguishes between load-bearing constraints (venue, power, schedule) and operational constraints (rider compliance, crew communication). This distinction maps directly to the foundation/protocol functional mode split. The methodology has production miles. The theoretical framework was articulated after the fact, not before.
 
 ### 4.5 The Operating Principle
 

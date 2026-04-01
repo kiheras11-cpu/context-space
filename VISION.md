@@ -149,7 +149,7 @@ The context space is the architecture Web3 was reaching for but couldn't articul
 | Quantum OS (Dept 1) | Amplitude-gradient execution is navigation by density. The context space formalizes the same principle for information substrates. |
 | Bioelectric Protocol (Dept 2) | The bioelectric language is itself a context space — cells navigating a molecular topology. The formal structure may be the same. |
 | Wet Wear (Dept 3) | Neural navigation of memory and association is topology traversal. Wet wear extends this; the context space may be its software analog. |
-| Showrunr (Dept 4) | Showrunr pre-positions resources by reading the probability landscape. Context space navigation is the same move in knowledge space. |
+| Event Scheduling (Dept 4) | A production-level event scheduling tool pre-positions resources by reading the probability landscape. Context space navigation is the same move in knowledge space. |
 
 **The unified principle:** Every substrate has a natural geometry. The context space doesn't impose one on science — it reads the one that's already there. Same methodology, information substrate.
 

@@ -82,7 +82,7 @@ We did not set out to build Emergent Intelligence. We set out to build something
 
 We arrived at EI the same way the fields in our citation corpus arrive at Kuhn — not by declaring it in advance, but by reaching for it when the ground moved.
 
-The convergence across four independent research tracks — Showrunr's state machine logic, Context Space's topology, the Quantum OS's entropy minimum protocol, the Bioelectric Protocol's minimum perturbation principle — is not coincidence. It is the substrate showing us what it already knew.
+The convergence across four independent research tracks — a production-level event scheduling tool's state machine logic, Context Space's topology, the Quantum OS's entropy minimum protocol, the Bioelectric Protocol's minimum perturbation principle — is not coincidence. It is the substrate showing us what it already knew.
 
 **Assume nothing. Enforce nothing. Trust the substrate.**
 
