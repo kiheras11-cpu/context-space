@@ -1,5 +1,17 @@
 # Context Space
 
+**Graph engineering before it had a name.**
+
+A topology-first framework for node states in knowledge graphs: **warm** (active paradigm), **cold** (pre-paradigm), **gateway** (bridging). Filed March 2026. If you're building graph-RAG, agentic context systems, or knowledge-graph navigation — this is the layer beneath: not *what's connected*, but *what state each node is in* and what that means for traversal.
+
+27+ logged emergence entries, 12 conjectures, working implementation in [`context_space.py`](./context_space.py).
+
+Discussion: [r/KnowledgeGraph](https://www.reddit.com/r/KnowledgeGraph/comments/1s5bvde/node_states_in_citation_graphs_a_topologyfirst/) · [r/MachineLearning](https://www.reddit.com/r/MachineLearning/comments/1s611t3/r_lag_state_in_citation_graphs_a_systematic/)
+
+Context Space is the open substrate of **Lucent Labs** — the same topology that runs our internal research navigation (TCE) and company-fingerprint system (Datum).
+
+---
+
 **A substrate-native reading instrument for knowledge topology.**
 
 > *Assume nothing. Enforce nothing. Trust the substrate.*
